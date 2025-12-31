@@ -1,0 +1,26 @@
+{
+  "f99b2c36e55de12103bcf0c67b3193a6867e3aad8cefe18891dfafb494d0b925": {
+    "lastReset": 1767037442008,
+    "username": "Louissxe",
+    "key": "88fc37a3...0062",
+    "resetCount": 1,
+    "history": [
+      {
+        "timestamp": 1767037442008,
+        "oldHwid": "9066ebf8-6fb8-4657-98ee-3cbedd2d0903"
+      }
+    ]
+  },
+  "3c06fe37334f702b65c64e1586e4fcf75fdcfa77f59207f257bbaab57b68f09c": {
+    "lastReset": 1767096790873,
+    "username": "Ares",
+    "key": "56caef91...3a69",
+    "resetCount": 1,
+    "history": [
+      {
+        "timestamp": 1767096790873,
+        "oldHwid": "5058691291"
+      }
+    ]
+  }
+}
