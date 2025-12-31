@@ -4574,5 +4574,456 @@
     "created": 1767035067982,
     "expires": 1767639867982,
     "script": "fishit.lua"
+  },
+  
+  "f47ac10b58ef4b0d9b0e2a8c7d5e6f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 1",
+    "plainKey": "0bbdb16eedb821493f655ac4",
+    "created": 1763678602268,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 2",
+    "plainKey": "993bc2472fc561057e45172e",
+    "created": 1763678603349,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 3",
+    "plainKey": "7a8b9c0d1e2f3a4b5c6d7e8f",
+    "created": 1763678604450,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 4",
+    "plainKey": "9a0b1c2d3e4f5a6b7c8d9e0f1",
+    "created": 1763678605551,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 5",
+    "plainKey": "b2c3d4e5f6a7b8c9d0e1f2a3",
+    "created": 1763678606652,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 6",
+    "plainKey": "d4e5f6a7b8c9d0e1f2a3b4c5",
+    "created": 1763678607753,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 7",
+    "plainKey": "e5f6a7b8c9d0e1f2a3b4c5d6",
+    "created": 1763678608854,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 8",
+    "plainKey": "f6a7b8c9d0e1f2a3b4c5d6e7",
+    "created": 1763678609955,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 9",
+    "plainKey": "a7b8c9d0e1f2a3b4c5d6e7f8",
+    "created": 1763678611056,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 10",
+    "plainKey": "b8c9d0e1f2a3b4c5d6e7f8a9",
+    "created": 1763678612157,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 11",
+    "plainKey": "c9d0e1f2a3b4c5d6e7f8a9b0",
+    "created": 1763678613258,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 12",
+    "plainKey": "d0e1f2a3b4c5d6e7f8a9b0c1",
+    "created": 1763678614359,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 13",
+    "plainKey": "e1f2a3b4c5d6e7f8a9b0c1d2",
+    "created": 1763678615460,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 14",
+    "plainKey": "f2a3b4c5d6e7f8a9b0c1d2e3",
+    "created": 1763678616561,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 15",
+    "plainKey": "a3b4c5d6e7f8a9b0c1d2e3f4",
+    "created": 1763678617662,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 16",
+    "plainKey": "b4c5d6e7f8a9b0c1d2e3f4a5",
+    "created": 1763678618763,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 17",
+    "plainKey": "c5d6e7f8a9b0c1d2e3f4a5b6",
+    "created": 1763678619864,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 18",
+    "plainKey": "d6e7f8a9b0c1d2e3f4a5b6c7",
+    "created": 1763678620965,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 19",
+    "plainKey": "e7f8a9b0c1d2e3f4a5b6c7d8",
+    "created": 1763678622066,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8": {
+    "active": false,
+    "hwid": "null",
+    "username": "User 20",
+    "plainKey": "f8a9b0c1d2e3f4a5b6c7d8e9",
+    "created": 1763678623167,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 21",
+    "plainKey": "a9b0c1d2e3f4a5b6c7d8e9f0",
+    "created": 1763678624268,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 22",
+    "plainKey": "b0c1d2e3f4a5b6c7d8e9f0a1",
+    "created": 1763678625369,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 23",
+    "plainKey": "c1d2e3f4a5b6c7d8e9f0a1b2",
+    "created": 1763678626470,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 24",
+    "plainKey": "d2e3f4a5b6c7d8e9f0a1b2c3",
+    "created": 1763678627571,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 25",
+    "plainKey": "e3f4a5b6c7d8e9f0a1b2c3d4",
+    "created": 1763678628672,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 26",
+    "plainKey": "f4a5b6c7d8e9f0a1b2c3d4e5",
+    "created": 1763678629773,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 27",
+    "plainKey": "a5b6c7d8e9f0a1b2c3d4e5f6",
+    "created": 1763678630874,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 28",
+    "plainKey": "b6c7d8e9f0a1b2c3d4e5f6a7",
+    "created": 1763678631975,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 29",
+    "plainKey": "c7d8e9f0a1b2c3d4e5f6a7b8",
+    "created": 1763678633076,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 30",
+    "plainKey": "d8e9f0a1b2c3d4e5f6a7b8c9",
+    "created": 1763678634177,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 31",
+    "plainKey": "e9f0a1b2c3d4e5f6a7b8c9d0",
+    "created": 1763678635278,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 32",
+    "plainKey": "f0a1b2c3d4e5f6a7b8c9d0e1",
+    "created": 1763678636379,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 33",
+    "plainKey": "a1b2c3d4e5f6a7b8c9d0e1f2",
+    "created": 1763678637480,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 34",
+    "plainKey": "b2c3d4e5f6a7b8c9d0e1f2a3",
+    "created": 1763678638581,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 35",
+    "plainKey": "c3d4e5f6a7b8c9d0e1f2a3b4",
+    "created": 1763678639682,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 36",
+    "plainKey": "d4e5f6a7b8c9d0e1f2a3b4c5",
+    "created": 1763678640783,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 37",
+    "plainKey": "e5f6a7b8c9d0e1f2a3b4c5d6",
+    "created": 1763678641884,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 38",
+    "plainKey": "f6a7b8c9d0e1f2a3b4c5d6e7",
+    "created": 1763678642985,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 39",
+    "plainKey": "a7b8c9d0e1f2a3b4c5d6e7f8",
+    "created": 1763678644086,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8": {
+    "active": false,
+    "hwid": "null",
+    "username": "User 40",
+    "plainKey": "b8c9d0e1f2a3b4c5d6e7f8a9",
+    "created": 1763678645187,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 41",
+    "plainKey": "c9d0e1f2a3b4c5d6e7f8a9b0",
+    "created": 1763678646288,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 42",
+    "plainKey": "d0e1f2a3b4c5d6e7f8a9b0c1",
+    "created": 1763678647389,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 43",
+    "plainKey": "e1f2a3b4c5d6e7f8a9b0c1d2",
+    "created": 1763678648490,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 44",
+    "plainKey": "f2a3b4c5d6e7f8a9b0c1d2e3",
+    "created": 1763678649591,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 45",
+    "plainKey": "a3b4c5d6e7f8a9b0c1d2e3f4",
+    "created": 1763678650692,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 46",
+    "plainKey": "b4c5d6e7f8a9b0c1d2e3f4a5",
+    "created": 1763678651793,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 47",
+    "plainKey": "c5d6e7f8a9b0c1d2e3f4a5b6",
+    "created": 1763678652894,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 48",
+    "plainKey": "d6e7f8a9b0c1d2e3f4a5b6c7",
+    "created": 1763678653995,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 49",
+    "plainKey": "e7f8a9b0c1d2e3f4a5b6c7d8",
+    "created": 1763678655096,
+    "expires": null,
+    "script": "fishit.lua"
+  },
+  "f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8": {
+    "active": true,
+    "hwid": "null",
+    "username": "User 50",
+    "plainKey": "f8a9b0c1d2e3f4a5b6c7d8e9",
+    "created": 1763678656197,
+    "expires": null,
+    "script": "fishit.lua"
   }
 }
