@@ -1,364 +1,37 @@
-// index.js - SERVER UTAMA
-import express from 'express';
-import crypto from 'crypto';
-import dotenv from 'dotenv';
-import * as db from './database.js';
-import fs from 'fs';
-import path from 'path';
+import express from "express";
+import fs from "fs";
+import path from "path";
+import crypto from "crypto";
+import dotenv from "dotenv";
 
 dotenv.config();
-
 const app = express();
 const PORT = process.env.PORT || 3000;
-const ADMIN_PATH = process.env.ADMIN_PATH || '/panel_super_secret';
-
-// Setup database saat start
-db.setupDatabase();
+const ADMIN_PATH = process.env.ADMIN_PATH || "/panel_super_secret";
+const __dirname = path.resolve();
+const KEYS_FILE = path.join(__dirname, "keys.json");
+const USER_RESET_FILE = path.join(__dirname, "user_resets.json");
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// ========== API ROUTES ==========
-
-// 1. Verify Key
-app.get("/verify", async (req, res) => {
-  const { key, hwid } = req.query;
-  if (!key) return res.json({ ok: false, reason: "no key" });
-
-  const hashed = crypto.createHash("sha256").update(key).digest("hex");
-  const record = await db.getKey(hashed);
-
-  if (!record || !record.active)
-    return res.json({ ok: false, reason: "invalid key" });
-
-  // Set HWID jika belum
-  if (!record.hwid) {
-    await db.updateKey(hashed, { hwid });
-    console.log(`Key ${key.substring(0, 8)}... diikat ke HWID: ${hwid}`);
-  }
-
-  // Cek HWID cocok
-  if (record.hwid !== hwid)
-    return res.json({ ok: false, reason: "hwid mismatch" });
-
-  // Cek expired
-  if (record.expires_at && Date.now() > record.expires_at)
-    return res.json({ ok: false, reason: "expired" });
-
-  // Buat token
-  const token = Buffer.from(JSON.stringify({ k: key, t: Date.now() })).toString("base64");
-  res.json({ ok: true, token });
-});
-
-// 2. User Reset HWID
-app.post("/user-reset-hwid", async (req, res) => {
-  const { key } = req.body;
-  if (!key) return res.json({ ok: false, reason: "Key diperlukan" });
-
-  const hashed = crypto.createHash("sha256").update(key).digest("hex");
-  const record = await db.getKey(hashed);
-
-  if (!record || !record.active)
-    return res.json({ ok: false, reason: "Key tidak valid atau tidak aktif" });
-
-  if (!record.hwid)
-    return res.json({ ok: false, reason: "Key ini belum terikat ke HWID manapun" });
-
-  // Cek cooldown
-  const resetInfo = await db.getResetInfo(hashed);
-  const now = Date.now();
-  const cooldownPeriod = 3 * 24 * 60 * 60 * 1000;
-
-  if (resetInfo && resetInfo.last_reset) {
-    const timeSinceLastReset = now - resetInfo.last_reset;
-    const remainingCooldown = cooldownPeriod - timeSinceLastReset;
-
-    if (remainingCooldown > 0) {
-      const hours = Math.floor(remainingCooldown / (60 * 60 * 1000));
-      const minutes = Math.floor((remainingCooldown % (60 * 60 * 1000)) / (60 * 1000));
-      return res.json({ 
-        ok: false, 
-        reason: `Anda harus menunggu ${hours} jam ${minutes} menit sebelum bisa reset HWID lagi`
-      });
-    }
-  }
-
-  // Reset HWID
-  await db.updateKey(hashed, { hwid: null });
-  await db.updateResetRecord(hashed);
-
-  const updatedReset = await db.getResetInfo(hashed);
-
-  res.json({ 
-    ok: true, 
-    message: "HWID berhasil direset!",
-    nextResetAvailable: now + cooldownPeriod,
-    resetCount: updatedReset ? updatedReset.reset_count : 1
-  });
-});
-
-// 3. Check Reset Cooldown
-app.get("/check-reset-cooldown", async (req, res) => {
-  const { key } = req.query;
-  if (!key) return res.json({ ok: false, reason: "Key diperlukan" });
-
-  const hashed = crypto.createHash("sha256").update(key).digest("hex");
-  const resetInfo = await db.getResetInfo(hashed);
-
-  if (!resetInfo || !resetInfo.last_reset) {
-    return res.json({ 
-      ok: true, 
-      canReset: true,
-      message: "Anda dapat mereset HWID sekarang"
-    });
-  }
-
-  const now = Date.now();
-  const cooldownPeriod = 3 * 24 * 60 * 60 * 1000;
-  const timeSinceLastReset = now - resetInfo.last_reset;
-  const remainingCooldown = cooldownPeriod - timeSinceLastReset;
-
-  if (remainingCooldown > 0) {
-    const days = Math.floor(remainingCooldown / (24 * 60 * 60 * 1000));
-    const hours = Math.floor((remainingCooldown % (24 * 60 * 60 * 1000)) / (60 * 60 * 1000));
-    const minutes = Math.floor((remainingCooldown % (60 * 60 * 1000)) / (60 * 1000));
-
-    return res.json({
-      ok: true,
-      canReset: false,
-      message: `Reset HWID tersedia dalam ${days} hari ${hours} jam ${minutes} menit`,
-      remainingCooldown,
-      nextResetTime: resetInfo.last_reset + cooldownPeriod,
-      resetCount: resetInfo.reset_count
-    });
-  } else {
-    return res.json({
-      ok: true,
-      canReset: true,
-      message: "Anda dapat mereset HWID sekarang",
-      resetCount: resetInfo.reset_count
-    });
-  }
-});
-
-// 4. Load Script
-app.get("/load", async (req, res) => {
-  const { token } = req.query;
-  if (!token) return res.json({ ok: false, reason: "no token" });
-
-  let decoded;
-  try {
-    decoded = JSON.parse(Buffer.from(token, "base64").toString("utf8"));
-  } catch {
-    return res.json({ ok: false, reason: "invalid token" });
-  }
-
-  const key = decoded.k;
-  const timestamp = decoded.t;
-  if (Date.now() - timestamp > 60 * 1000)
-    return res.json({ ok: false, reason: "token expired" });
-
-  const hashed = crypto.createHash("sha256").update(key).digest("hex");
-  const record = await db.getKey(hashed);
-  if (!record || !record.active)
-    return res.json({ ok: false, reason: "invalid key" });
-
-  const scriptPath = path.join(__dirname, "scripts", record.script);
-  if (!fs.existsSync(scriptPath))
-    return res.json({ ok: false, reason: "script not found" });
-
-  const script = fs.readFileSync(scriptPath, "utf8");
-  res.setHeader("Content-Type", "text/plain");
-  res.send(script);
-});
-
-// ========== ADMIN API ==========
-
-// Middleware untuk admin auth
-const adminAuth = (req, res, next) => {
-  const adm = req.headers["x-admin-token"];
-  if (adm !== process.env.ADMIN_SECRET)
-    return res.json({ ok: false, reason: "unauthorized" });
-  next();
+// 🔐 Load & Save Keys
+const loadKeys = () => {
+  if (!fs.existsSync(KEYS_FILE)) fs.writeFileSync(KEYS_FILE, "{}");
+  return JSON.parse(fs.readFileSync(KEYS_FILE, "utf8"));
 };
 
-// 5. Generate Key
-app.post(`${ADMIN_PATH}/generate`, adminAuth, async (req, res) => {
-  const { type, script, username } = req.body;
-  if (!username) return res.json({ ok: false, reason: "username is required" });
+const saveKeys = (data) =>
+  fs.writeFileSync(KEYS_FILE, JSON.stringify(data, null, 2));
 
-  const plainKey = crypto.randomBytes(12).toString("hex");
-  const hashed = crypto.createHash("sha256").update(plainKey).digest("hex");
+// 🔄 Load & Save User Reset Records
+const loadUserResets = () => {
+  if (!fs.existsSync(USER_RESET_FILE)) fs.writeFileSync(USER_RESET_FILE, "{}");
+  return JSON.parse(fs.readFileSync(USER_RESET_FILE, "utf8"));
+};
 
-  const keyData = {
-    hash: hashed,
-    plainKey,
-    username,
-    script,
-    expires: type === "perm" ? null : Date.now() + 7 * 24 * 60 * 60 * 1000
-  };
-
-  const success = await db.createKey(keyData);
-
-  if (success) {
-    const stats = await db.getStats();
-    res.json({ 
-      ok: true, 
-      type, 
-      key: plainKey, 
-      hashed, 
-      script, 
-      username,
-      totalKeys: stats.total
-    });
-  } else {
-    res.json({ ok: false, reason: "failed to create key" });
-  }
-});
-
-// 6. Get All Keys
-app.get(`${ADMIN_PATH}/keys`, adminAuth, async (req, res) => {
-  const keys = await db.getAllKeys();
-  
-  const keysList = keys.map(row => {
-    let plainKey = row.plain_key;
-    if (!plainKey) plainKey = row.key_hash.substring(0, 8) + "...";
-
-    let canResetAgain = true;
-    if (row.last_reset) {
-      const cooldownPeriod = 3 * 24 * 60 * 60 * 1000;
-      canResetAgain = (Date.now() - row.last_reset) > cooldownPeriod;
-    }
-
-    return {
-      hashed: row.key_hash,
-      key: plainKey,
-      plainKey: row.plain_key || plainKey,
-      username: row.username,
-      script: row.script,
-      hwid: row.hwid,
-      active: row.active,
-      expires: row.expires_at,
-      userResets: row.last_reset ? {
-        resetCount: row.reset_count || 0,
-        lastReset: row.last_reset,
-        canResetAgain
-      } : null
-    };
-  });
-
-  res.json({ ok: true, keys: keysList });
-});
-
-// 7. Search Keys
-app.get(`${ADMIN_PATH}/search`, adminAuth, async (req, res) => {
-  const { username } = req.query;
-  if (!username) return res.json({ ok: false, reason: "username is required" });
-
-  const keys = await db.searchKeys(username);
-  
-  const keysList = keys.map(row => {
-    let plainKey = row.plain_key;
-    if (!plainKey) plainKey = row.key_hash.substring(0, 8) + "...";
-
-    let canResetAgain = true;
-    if (row.last_reset) {
-      const cooldownPeriod = 3 * 24 * 60 * 60 * 1000;
-      canResetAgain = (Date.now() - row.last_reset) > cooldownPeriod;
-    }
-
-    return {
-      hashed: row.key_hash,
-      key: plainKey,
-      plainKey: row.plain_key || plainKey,
-      username: row.username,
-      script: row.script,
-      hwid: row.hwid,
-      active: row.active,
-      expires: row.expires_at,
-      userResets: row.last_reset ? {
-        resetCount: row.reset_count || 0,
-        lastReset: row.last_reset,
-        canResetAgain
-      } : null
-    };
-  });
-
-  res.json({ ok: true, keys: keysList });
-});
-
-// 8. Toggle Key Status
-app.post(`${ADMIN_PATH}/toggle-key`, adminAuth, async (req, res) => {
-  const { hashed, active } = req.body;
-  
-  const success = await db.updateKey(hashed, { active });
-  
-  if (success) {
-    res.json({
-      ok: true,
-      message: `Key berhasil ${active ? "diaktifkan" : "dinonaktifkan"}`
-    });
-  } else {
-    res.json({ ok: false, reason: "key not found" });
-  }
-});
-
-// 9. Reset HWID (Admin)
-app.post(`${ADMIN_PATH}/reset-hwid", adminAuth, async (req, res) => {
-  const { hashed } = req.body;
-  
-  const success = await db.updateKey(hashed, { hwid: null });
-  
-  if (success) {
-    res.json({ ok: true, message: "HWID berhasil direset" });
-  } else {
-    res.json({ ok: false, reason: "key not found" });
-  }
-});
-
-// 10. Get User Reset History
-app.get(`${ADMIN_PATH}/reset-history`, adminAuth, async (req, res) => {
-  const { hashed } = req.query;
-  const keys = await db.getAllKeys();
-  const resetRecords = [];
-
-  if (!hashed) {
-    // Get all reset history
-    for (const key of keys) {
-      if (key.last_reset) {
-        const record = await db.getResetInfo(key.key_hash);
-        if (record) {
-          resetRecords.push({
-            keyHash: key.key_hash,
-            key: key.plain_key || key.key_hash.substring(0, 8) + "...",
-            username: key.username,
-            resetCount: record.reset_count || 0,
-            lastReset: record.last_reset
-          });
-        }
-      }
-    }
-    return res.json({ ok: true, resets: resetRecords });
-  }
-
-  // Get specific reset history
-  const resetInfo = await db.getResetInfo(hashed);
-  const keyInfo = keys.find(k => k.key_hash === hashed);
-  
-  if (!resetInfo || !keyInfo) {
-    return res.json({ ok: false, reason: "Tidak ada riwayat reset untuk key ini" });
-  }
-
-  res.json({ 
-    ok: true, 
-    resetInfo: {
-      key: keyInfo.plain_key || keyInfo.key_hash.substring(0, 8) + "...",
-      username: keyInfo.username,
-      resetCount: resetInfo.reset_count || 0,
-      lastReset: resetInfo.last_reset
-    }
-  });
-});
+const saveUserResets = (data) =>
+  fs.writeFileSync(USER_RESET_FILE, JSON.stringify(data, null, 2));
 
 // ==== ROOT ====
 app.get("/", (req, res) => {
@@ -1384,6 +1057,388 @@ app.get("/", (req, res) => {
 </body>
 </html>`;
   res.send(html);
+});
+
+// ... (sisanya kode Anda yang sudah ada tetap sama)
+// ==== VERIFY ====
+app.get("/verify", (req, res) => {
+  const { key, hwid } = req.query;
+  if (!key) return res.json({ ok: false, reason: "no key" });
+
+  const keys = loadKeys();
+  const hashed = crypto.createHash("sha256").update(key).digest("hex");
+  const record = keys[hashed];
+
+  if (!record || !record.active)
+    return res.json({ ok: false, reason: "invalid key" });
+
+  // Jika HWID belum diatur, atur HWID pertama yang menggunakan key ini
+  if (!record.hwid) {
+    record.hwid = hwid;
+    saveKeys(keys);
+    console.log(`Key ${key.substring(0, 8)}... diikat ke HWID: ${hwid}`);
+  }
+
+  // Periksa apakah HWID cocok dengan yang sudah terdaftar
+  if (record.hwid !== hwid)
+    return res.json({ ok: false, reason: "hwid mismatch" });
+
+  // Periksa apakah key sudah kedaluwarsa
+  if (record.expires && Date.now() > record.expires)
+    return res.json({ ok: false, reason: "expired" });
+
+  // Buat token untuk autentikasi
+  const token = Buffer.from(JSON.stringify({ k: key, t: Date.now() })).toString(
+    "base64",
+  );
+  res.json({ ok: true, token });
+});
+
+// ==== USER RESET HWID ====
+app.post("/user-reset-hwid", (req, res) => {
+  const { key } = req.body;
+
+  if (!key) {
+    return res.json({ ok: false, reason: "Key diperlukan" });
+  }
+
+  const keys = loadKeys();
+  const hashed = crypto.createHash("sha256").update(key).digest("hex");
+  const record = keys[hashed];
+
+  if (!record || !record.active) {
+    return res.json({ ok: false, reason: "Key tidak valid atau tidak aktif" });
+  }
+
+  // Cek apakah key memiliki HWID
+  if (!record.hwid) {
+    return res.json({ ok: false, reason: "Key ini belum terikat ke HWID manapun" });
+  }
+
+  // Load user reset records
+  const userResets = loadUserResets();
+  const now = Date.now();
+  const cooldownPeriod = 3 * 24 * 60 * 60 * 1000; // 3 hari dalam milidetik
+
+  // Cek cooldown
+  if (userResets[hashed] && userResets[hashed].lastReset) {
+    const timeSinceLastReset = now - userResets[hashed].lastReset;
+    const remainingCooldown = cooldownPeriod - timeSinceLastReset;
+
+    if (remainingCooldown > 0) {
+      const hours = Math.floor(remainingCooldown / (60 * 60 * 1000));
+      const minutes = Math.floor((remainingCooldown % (60 * 60 * 1000)) / (60 * 1000));
+      return res.json({ 
+        ok: false, 
+        reason: `Anda harus menunggu ${hours} jam ${minutes} menit sebelum bisa reset HWID lagi`,
+        remainingCooldown: remainingCooldown
+      });
+    }
+  }
+
+  // Reset HWID
+  const oldHwid = record.hwid;
+  record.hwid = null;
+  saveKeys(keys);
+
+  // Update reset record
+  userResets[hashed] = {
+    lastReset: now,
+    username: record.username,
+    key: key.substring(0, 8) + "..." + key.substring(key.length - 4),
+    resetCount: (userResets[hashed]?.resetCount || 0) + 1,
+    history: [
+      ...(userResets[hashed]?.history || []),
+      {
+        timestamp: now,
+        oldHwid: oldHwid
+      }
+    ]
+  };
+  saveUserResets(userResets);
+
+  console.log(`User ${record.username} mereset HWID untuk key ${key.substring(0, 8)}...`);
+
+  res.json({ 
+    ok: true, 
+    message: "HWID berhasil direset! Sekarang key dapat digunakan di perangkat baru.",
+    nextResetAvailable: now + cooldownPeriod,
+    resetCount: userResets[hashed].resetCount
+  });
+});
+
+// ==== CHECK RESET COOLDOWN ====
+app.get("/check-reset-cooldown", (req, res) => {
+  const { key } = req.query;
+
+  if (!key) {
+    return res.json({ ok: false, reason: "Key diperlukan" });
+  }
+
+  const hashed = crypto.createHash("sha256").update(key).digest("hex");
+  const userResets = loadUserResets();
+  const userRecord = userResets[hashed];
+
+  if (!userRecord || !userRecord.lastReset) {
+    return res.json({ 
+      ok: true, 
+      canReset: true,
+      message: "Anda dapat mereset HWID sekarang"
+    });
+  }
+
+  const now = Date.now();
+  const cooldownPeriod = 3 * 24 * 60 * 60 * 1000;
+  const timeSinceLastReset = now - userRecord.lastReset;
+  const remainingCooldown = cooldownPeriod - timeSinceLastReset;
+
+  if (remainingCooldown > 0) {
+    const days = Math.floor(remainingCooldown / (24 * 60 * 60 * 1000));
+    const hours = Math.floor((remainingCooldown % (24 * 60 * 60 * 1000)) / (60 * 60 * 1000));
+    const minutes = Math.floor((remainingCooldown % (60 * 60 * 1000)) / (60 * 1000));
+
+    return res.json({
+      ok: true,
+      canReset: false,
+      message: `Reset HWID tersedia dalam ${days} hari ${hours} jam ${minutes} menit`,
+      remainingCooldown: remainingCooldown,
+      nextResetTime: userRecord.lastReset + cooldownPeriod,
+      resetCount: userRecord.resetCount || 0
+    });
+  } else {
+    return res.json({
+      ok: true,
+      canReset: true,
+      message: "Anda dapat mereset HWID sekarang",
+      resetCount: userRecord.resetCount || 0
+    });
+  }
+});
+
+// ==== LOAD SCRIPT ====
+app.get("/load", (req, res) => {
+  const { token } = req.query;
+  if (!token) return res.json({ ok: false, reason: "no token" });
+
+  let decoded;
+  try {
+    decoded = JSON.parse(Buffer.from(token, "base64").toString("utf8"));
+  } catch {
+    return res.json({ ok: false, reason: "invalid token" });
+  }
+
+  const key = decoded.k;
+  const timestamp = decoded.t;
+  if (Date.now() - timestamp > 60 * 1000)
+    return res.json({ ok: false, reason: "token expired" });
+
+  const keys = loadKeys();
+  const hashed = crypto.createHash("sha256").update(key).digest("hex");
+  const record = keys[hashed];
+  if (!record || !record.active)
+    return res.json({ ok: false, reason: "invalid key" });
+
+  const scriptPath = path.join(__dirname, "scripts", record.script);
+  if (!fs.existsSync(scriptPath))
+    return res.json({ ok: false, reason: "script not found" });
+
+  const script = fs.readFileSync(scriptPath, "utf8");
+  res.setHeader("Content-Type", "text/plain");
+  res.send(script);
+});
+
+// ... (sisanya kode Anda yang sudah ada tetap sama)
+// ==== ADMIN API - GENERATE KEY ====
+app.post(`${ADMIN_PATH}/generate`, (req, res) => {
+  const adm = req.headers["x-admin-token"];
+  if (adm !== process.env.ADMIN_SECRET)
+    return res.json({ ok: false, reason: "unauthorized" });
+
+  const { type, script, username } = req.body;
+  if (!username) {
+    return res.json({ ok: false, reason: "username is required" });
+  }
+
+  const plainKey = crypto.randomBytes(12).toString("hex");
+  const hashed = crypto.createHash("sha256").update(plainKey).digest("hex");
+
+  const keys = loadKeys();
+  keys[hashed] = {
+    active: true,
+    hwid: null,
+    username: username,
+    plainKey: plainKey,
+    created: Date.now(),
+    expires: type === "perm" ? null : Date.now() + 7 * 24 * 60 * 60 * 1000,
+    script,
+  };
+  saveKeys(keys);
+  res.json({ ok: true, type, key: plainKey, hashed, script, username });
+});
+
+// ==== ADMIN API - GET ALL KEYS ====
+app.get(`${ADMIN_PATH}/keys`, (req, res) => {
+  const adm = req.headers["x-admin-token"];
+  if (adm !== process.env.ADMIN_SECRET)
+    return res.json({ ok: false, reason: "unauthorized" });
+
+  const keys = loadKeys();
+  const userResets = loadUserResets();
+
+  const keysList = Object.entries(keys).map(([hashed, info]) => {
+    let plainKey = info.plainKey;
+    if (!plainKey) {
+      plainKey = hashed.substring(0, 8) + "...";
+    }
+
+    // Tambahkan info reset dari user
+    const resetInfo = userResets[hashed];
+
+    return {
+      hashed,
+      key: plainKey,
+      plainKey: info.plainKey || plainKey,
+      username: info.username,
+      script: info.script,
+      hwid: info.hwid,
+      active: info.active,
+      expires: info.expires,
+      userResets: resetInfo ? {
+        resetCount: resetInfo.resetCount || 0,
+        lastReset: resetInfo.lastReset,
+        canResetAgain: resetInfo.lastReset ? 
+          (Date.now() - resetInfo.lastReset) > (3 * 24 * 60 * 60 * 1000) : true
+      } : null
+    };
+  });
+
+  res.json({ ok: true, keys: keysList });
+});
+
+// ==== ADMIN API - SEARCH KEYS ====
+app.get(`${ADMIN_PATH}/search`, (req, res) => {
+  const adm = req.headers["x-admin-token"];
+  if (adm !== process.env.ADMIN_SECRET)
+    return res.json({ ok: false, reason: "unauthorized" });
+
+  const { username } = req.query;
+  if (!username) {
+    return res.json({ ok: false, reason: "username is required" });
+  }
+
+  const keys = loadKeys();
+  const userResets = loadUserResets();
+
+  const keysList = Object.entries(keys)
+    .filter(
+      ([hashed, info]) =>
+        info.username &&
+        info.username.toLowerCase().includes(username.toLowerCase()),
+    )
+    .map(([hashed, info]) => {
+      let plainKey = info.plainKey;
+      if (!plainKey) {
+        plainKey = hashed.substring(0, 8) + "...";
+      }
+
+      const resetInfo = userResets[hashed];
+
+      return {
+        hashed,
+        key: plainKey,
+        plainKey: info.plainKey || plainKey,
+        username: info.username,
+        script: info.script,
+        hwid: info.hwid,
+        active: info.active,
+        expires: info.expires,
+        userResets: resetInfo ? {
+          resetCount: resetInfo.resetCount || 0,
+          lastReset: resetInfo.lastReset,
+          canResetAgain: resetInfo.lastReset ? 
+            (Date.now() - resetInfo.lastReset) > (3 * 24 * 60 * 60 * 1000) : true
+        } : null
+      };
+    });
+
+  res.json({ ok: true, keys: keysList });
+});
+
+// ==== ADMIN API - GET USER RESET HISTORY ====
+app.get(`${ADMIN_PATH}/reset-history`, (req, res) => {
+  const adm = req.headers["x-admin-token"];
+  if (adm !== process.env.ADMIN_SECRET)
+    return res.json({ ok: false, reason: "unauthorized" });
+
+  const { hashed } = req.query;
+  const userResets = loadUserResets();
+
+  if (!hashed) {
+    // Return all reset history
+    const allResets = Object.entries(userResets).map(([keyHash, info]) => ({
+      keyHash: keyHash,
+      key: info.key,
+      username: info.username,
+      resetCount: info.resetCount || 0,
+      lastReset: info.lastReset,
+      history: info.history || []
+    }));
+
+    return res.json({ ok: true, resets: allResets });
+  }
+
+  const resetInfo = userResets[hashed];
+  if (!resetInfo) {
+    return res.json({ ok: false, reason: "Tidak ada riwayat reset untuk key ini" });
+  }
+
+  res.json({ 
+    ok: true, 
+    resetInfo: {
+      key: resetInfo.key,
+      username: resetInfo.username,
+      resetCount: resetInfo.resetCount || 0,
+      lastReset: resetInfo.lastReset,
+      history: resetInfo.history || []
+    }
+  });
+});
+
+// ==== ADMIN API - RESET HWID ====
+app.post(`${ADMIN_PATH}/reset-hwid`, (req, res) => {
+  const adm = req.headers["x-admin-token"];
+  if (adm !== process.env.ADMIN_SECRET)
+    return res.json({ ok: false, reason: "unauthorized" });
+
+  const { hashed } = req.body;
+  const keys = loadKeys();
+
+  if (!keys[hashed]) return res.json({ ok: false, reason: "key not found" });
+
+  keys[hashed].hwid = null;
+  saveKeys(keys);
+
+  res.json({ ok: true, message: "HWID berhasil direset" });
+});
+
+// ==== ADMIN API - TOGGLE KEY STATUS ====
+app.post(`${ADMIN_PATH}/toggle-key`, (req, res) => {
+  const adm = req.headers["x-admin-token"];
+  if (adm !== process.env.ADMIN_SECRET)
+    return res.json({ ok: false, reason: "unauthorized" });
+
+  const { hashed, active } = req.body;
+  const keys = loadKeys();
+
+  if (!keys[hashed]) return res.json({ ok: false, reason: "key not found" });
+
+  keys[hashed].active = active;
+  saveKeys(keys);
+
+  res.json({
+    ok: true,
+    message: `Key berhasil ${active ? "diaktifkan" : "dinonaktifkan"}`,
+  });
 });
 
 // ==== USER RESET PAGE ====
@@ -3820,8 +3875,5 @@ window.addEventListener('load', function() {
   res.send(html);
 });
 
-// Start Server
-app.listen(PORT, () => {
-  console.log(`✅ Server running on port ${PORT}`);
-  console.log(`🗄️  PostgreSQL database ready`);
-});
+// ==== START SERVER ====
+app.listen(PORT, () => console.log(`✅ Server running on port ${PORT}`));
