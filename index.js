@@ -128,18 +128,22 @@ app.get("/", (req, res) => {
             text-decoration: none;
         }
 
-        .logo-icon {
+       .logo-icon {
             width: 50px;
             height: 50px;
-            background: var(--gradient-primary);
+            background: transparent;  /* Hapus background */
             border-radius: 12px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 24px;
+            font-size: 0px;
             color: white;
             font-weight: bold;
             animation: pulse 2s infinite;
+            /* Tambah ini untuk gambar: */
+            background-image: url('https://cdn.discordapp.com/attachments/1449931863912091908/1455846889630204088/quality_restoration_20251213110542567.jpg?ex=69563692&is=6954e512&hm=40b966ea20e656400a141c9b1eedb1dd1cd0463da7ed164182ba0707b40ea67b');
+            background-size: cover;
+            background-position: center;
         }
 
         @keyframes pulse {
