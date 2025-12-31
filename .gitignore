@@ -1,0 +1,7 @@
+keys.json
+sessions.json
+user_resets.json
+.env
+node_modules/
+.DS_Store
+*.log
