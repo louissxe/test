@@ -41,7 +41,7 @@
   },
   "4d121fcb70876155d3ce328ba337bde6a359115ffd585249dcbe389a88a61eff": {
     "active": true,
-    "hwid": "9595457406",
+    "hwid": null,
     "username": "haff",
     "plainKey": "144be5cddf9fdb6277fc1ced",
     "created": 1763159858574,
@@ -68,7 +68,7 @@
   },
   "3925195df788863837b7d4b7d3c6fdf3b76eef36b5eb80e13bd1b7b760c9d7f9": {
     "active": true,
-    "hwid": "9467098314",
+    "hwid": null,
     "username": "AldoSap",
     "plainKey": "8a72e8ec9f4207ca4ab5534f",
     "created": 1763160980261,
@@ -77,7 +77,7 @@
   },
   "5b813116561bebb211da48de37e2dbbe66d81f0f3699fa9b8c77fc21192c53b7": {
     "active": true,
-    "hwid": "8746893237",
+    "hwid": null,
     "username": "AldoSap",
     "plainKey": "a944b840c2c27e16299e8263",
     "created": 1763161011346,
@@ -86,7 +86,7 @@
   },
   "deb47ece8a2cd586a6719a69900ae7e980134a1e35ec03f0fc32c7f8d93515ac": {
     "active": true,
-    "hwid": "9834342610",
+    "hwid": null,
     "username": "AldoSap",
     "plainKey": "0be615285047f9839fa682c6",
     "created": 1763161012250,
@@ -95,7 +95,7 @@
   },
   "1938be0a33f5454132159a30f10338e426507c4f1c24fc899df7e9a7b208050a": {
     "active": true,
-    "hwid": "9586877179",
+    "hwid": null,
     "username": "AldoSap",
     "plainKey": "992bd5a8f3f9974707c48741",
     "created": 1763161013399,
@@ -122,7 +122,7 @@
   },
   "ff7fff94e5e340a3bc8c23429a83d995e03457c9de14f8a5934e1a725aa0dd08": {
     "active": true,
-    "hwid": "7753081885",
+    "hwid": null,
     "username": "finnn",
     "plainKey": "c5d86ae9ff57ad5616b8502e",
     "created": 1763161243163,
@@ -131,7 +131,7 @@
   },
   "40bc3ebc6026661d66645a21cc8518588c2488bee5578b5d483ebf0b72fa7a57": {
     "active": true,
-    "hwid": "3666025249",
+    "hwid": null,
     "username": "finnn",
     "plainKey": "395766ecd0797cfa475b09ed",
     "created": 1763161244467,
@@ -140,7 +140,7 @@
   },
   "974656852a771c523e2a852eaf9d004115b09e175dcdca3fe655e9236362e2a5": {
     "active": true,
-    "hwid": "8939101105",
+    "hwid": null,
     "username": "finnn",
     "plainKey": "dba3697d8c51013393c0b8d4",
     "created": 1763161245603,
@@ -149,7 +149,7 @@
   },
   "7f813061341b09c8584f6f2b0dcc4d5158bc6ee9c749d3113e95f64fe6911461": {
     "active": true,
-    "hwid": "9623864613",
+    "hwid": null,
     "username": "finnn",
     "plainKey": "1d40e583c3c85f16ef02da6b",
     "created": 1763161246417,
@@ -158,7 +158,7 @@
   },
   "b3c9da18b084ff8f946dc68dbe7e95ef70eca6184268a743684d9fb710ef7602": {
     "active": true,
-    "hwid": "9074241797",
+    "hwid": null,
     "username": "finnn",
     "plainKey": "48e8dd3b3a978d4b73ea6516",
     "created": 1763161247238,
@@ -167,7 +167,7 @@
   },
   "c76e4fc8af05e4c42818e328df2322572730d6f995fcd4ee5c03ec44b39738e7": {
     "active": true,
-    "hwid": "5058691291",
+    "hwid": null,
     "username": "Ares",
     "plainKey": "2cf549142558f8da14a6ff94",
     "created": 1763161393307,
@@ -185,7 +185,7 @@
   },
   "3c06fe37334f702b65c64e1586e4fcf75fdcfa77f59207f257bbaab57b68f09c": {
     "active": true,
-    "hwid": "3163016154",
+    "hwid": null,
     "username": "Ares",
     "plainKey": "56caef910f95ce72edf03a69",
     "created": 1763161395769,
@@ -194,7 +194,7 @@
   },
   "fc12e262a1db11772391879f271a7d8b287994d41266baaed2c06d69da23af73": {
     "active": true,
-    "hwid": "9111083250",
+    "hwid": null,
     "username": "fling fish it",
     "plainKey": "2c7964f8fe342913783469e6",
     "created": 1763161699625,
@@ -203,7 +203,7 @@
   },
   "77524025e2b3707f92e55da43307f9edc288467e06e2f2e9195e85dd4f0fc274": {
     "active": true,
-    "hwid": "1890571237",
+    "hwid": null,
     "username": "cs 2",
     "plainKey": "01c8005d8e2cc1846eec0e94",
     "created": 1763161819915,
@@ -212,7 +212,7 @@
   },
   "8352c39e9752d1b7107628bc3051a5b4a2b1b09a4643aa98966064b0a0a203ba": {
     "active": true,
-    "hwid": "1890571237",
+    "hwid": null,
     "username": "cs 2",
     "plainKey": "538c3c7ea4b8ed5943427a6c",
     "created": 1763161820850,
@@ -302,7 +302,7 @@
   },
   "a5a75857bb39eb81ea31c92f558b5ac14d32a42013c87accb6ce44c0ac855294": {
     "active": true,
-    "hwid": "8314747790",
+    "hwid": null,
     "username": "cs 5",
     "plainKey": "f4ddf76499255c67155752fb",
     "created": 1763162099565,
@@ -347,7 +347,7 @@
   },
   "09463480b34b1d7a7a82b15a6cf793e4d651c1422c582b0384b49928690e776f": {
     "active": true,
-    "hwid": "9566125805",
+    "hwid": null,
     "username": "moonv",
     "plainKey": "498d2554cc0be2cb30c14054",
     "created": 1763162392222,
@@ -356,7 +356,7 @@
   },
   "2d3ca54aff333ca6fa6d4b04233aef739fbf6ac62ffdb5d939214bee53f3b580": {
     "active": true,
-    "hwid": "9500151811",
+    "hwid": null,
     "username": "moonv",
     "plainKey": "5c19f885fed5ffd994213e04",
     "created": 1763162393049,
@@ -383,7 +383,7 @@
   },
   "916d42d1df157b556c28a59396a732bd0ba7ca58c3f12219391b5b0851afefe8": {
     "active": true,
-    "hwid": "3296763015",
+    "hwid": null,
     "username": "Achoo",
     "plainKey": "acb088168327b3d018c4fc90",
     "created": 1763162569222,
@@ -437,7 +437,7 @@
   },
   "d00045387c1b713ce976355b22287de6e3dd58557d9321b017f3f030388211da": {
     "active": true,
-    "hwid": "9100842302",
+    "hwid": null,
     "username": "Akay",
     "plainKey": "6ebfb4255ea1272f85cd2a0f",
     "created": 1763208394604,
@@ -473,7 +473,7 @@
   },
   "0b120a81f687640c7cca13322219c71328bae3a8db14f52d18bf9525af57070d": {
     "active": true,
-    "hwid": "9100842302",
+    "hwid": null,
     "username": "Akay",
     "plainKey": "35a354f056d9c1090b87b0a6",
     "created": 1763208399334,
@@ -482,7 +482,7 @@
   },
   "b89dcfea090d3d4ddae7f73c4b54870b36685f5f97a0003ec8ae5ffbf4b3c3d1": {
     "active": true,
-    "hwid": "9037399945",
+    "hwid": null,
     "username": "Rein",
     "plainKey": "059c5d1dac84b6add4f903be",
     "created": 1763209102645,
@@ -509,7 +509,7 @@
   },
   "34784849085be2423c9cdfebfcb4b670a140dfbd667f9f9557c088293a7fc8f6": {
     "active": true,
-    "hwid": "9037399945",
+    "hwid": null,
     "username": "Rein",
     "plainKey": "20b1c43fe1ab97e32a9659ac",
     "created": 1763209106170,
@@ -518,7 +518,7 @@
   },
   "2a200733fde3c576537788df8acebf6dcb42fc4841ba28fdd3ea8ca59b6cca08": {
     "active": true,
-    "hwid": "9037399945",
+    "hwid": null,
     "username": "Rein",
     "plainKey": "87c72daeecd3867bdaa9c7e2",
     "created": 1763209107031,
@@ -527,7 +527,7 @@
   },
   "918d95a275b812b0cd7377e5f612f716a124acc42f0124b6d3dd37975a541edd": {
     "active": true,
-    "hwid": "9615798598",
+    "hwid": null,
     "username": "Bula",
     "plainKey": "90e03c2ec65618b96b128f20",
     "created": 1763217745793,
@@ -536,7 +536,7 @@
   },
   "718b8f218e79aac33e8cfae39bc1e1bef2d74e114456974ddd4b53fa6b5f3553": {
     "active": true,
-    "hwid": "9744960540",
+    "hwid": null,
     "username": "Bula",
     "plainKey": "b595f039443eb9ba84f2f35f",
     "created": 1763217747588,
@@ -554,7 +554,7 @@
   },
   "88070407219981a7cd82c16a83128f7dd0882c35d11da11e68552c1d66d942c5": {
     "active": true,
-    "hwid": "9806300638",
+    "hwid": null,
     "username": "Bula",
     "plainKey": "167eed6bba10194826c0f718",
     "created": 1763217749497,
@@ -563,7 +563,7 @@
   },
   "ccfd00f4bd6e44ff49019937f447867d78a4dcb0684e5f6d4e1eb8f1ea20c948": {
     "active": true,
-    "hwid": "8166202702",
+    "hwid": null,
     "username": "Bula",
     "plainKey": "1f996bb7b73613133005bfb6",
     "created": 1763217750303,
@@ -572,7 +572,7 @@
   },
   "46f2ab40755a161693004aa01dc5bfea852f0d8bd0bd10b0dcd5eeb0669a3c1a": {
     "active": true,
-    "hwid": "7305309763",
+    "hwid": null,
     "username": "Macha",
     "plainKey": "9267a373f978ee6b94ac7cac",
     "created": 1763246904406,
@@ -581,7 +581,7 @@
   },
   "7d0d254010905d741a25c544f912b67d6d634a95168abb60f43a7ecfbdf441ac": {
     "active": true,
-    "hwid": "9924548065",
+    "hwid": null,
     "username": "Macha",
     "plainKey": "f539f769d7ea046f53d66ca3",
     "created": 1763246905228,
@@ -590,7 +590,7 @@
   },
   "39d9dbfed8489a747417570974862123e9e9d65b260602a26e661e3fde13e1d6": {
     "active": true,
-    "hwid": "9924548065",
+    "hwid": null,
     "username": "Macha",
     "plainKey": "73d9becbcfb8526cc9ca5648",
     "created": 1763246906044,
@@ -608,7 +608,7 @@
   },
   "2dfea43b5a8160f0fe2908fae4a00a9b5650d2556a889bcdac4ad3a0b0c9b818": {
     "active": true,
-    "hwid": "9924548065",
+    "hwid": null,
     "username": "Macha",
     "plainKey": "ba623e4e884e964286129c07",
     "created": 1763246907641,
@@ -617,7 +617,7 @@
   },
   "b9be881657bdcba36e5ef263b7545ea875c65362bf1bcb58d8accbc9f638d154": {
     "active": true,
-    "hwid": "8405056023",
+    "hwid": null,
     "username": "Kyy",
     "plainKey": "92fd93687a0c4296d1de18af",
     "created": 1763292207323,
@@ -662,7 +662,7 @@
   },
   "fbf70e09b87480d6099ec5e7ec1e49cf73f60600fc6500ec5838e4830677cd0b": {
     "active": true,
-    "hwid": "8405056023",
+    "hwid": null,
     "username": "Kyy",
     "plainKey": "6d89f81c03ce9596855817a6",
     "created": 1763292229564,
@@ -689,7 +689,7 @@
   },
   "827ed9f5bc0767504806a29211e743760b61857daa01fac76763e7bd52d06b9c": {
     "active": true,
-    "hwid": "8405056023",
+    "hwid": null,
     "username": "Kyy",
     "plainKey": "890d3381b8deef6e5ca3aba7",
     "created": 1763292232594,
@@ -698,7 +698,7 @@
   },
   "45797751000a8677fa66c5641eac6a409e18ff8f00bd1023aba3a699d69fe5ea": {
     "active": true,
-    "hwid": "8430014128",
+    "hwid": null,
     "username": "Kyy",
     "plainKey": "46a83516cd2ffa0703aab609",
     "created": 1763292233456,
@@ -707,7 +707,7 @@
   },
   "3f16a0dd3ad77b501cd72cfd960588b26e4d1e35963fbbe61104837d84d2da93": {
     "active": true,
-    "hwid": "8381836523",
+    "hwid": null,
     "username": "Stayhere",
     "plainKey": "d6952bcf1b2c576b7c8e734b",
     "created": 1763377626452,
@@ -716,7 +716,7 @@
   },
   "e977bae93174a8dcc9ba100882c3ad100f2313e26ff91407384caa6fb375885d": {
     "active": true,
-    "hwid": "8968936224",
+    "hwid": null,
     "username": "Stayhere",
     "plainKey": "ffe4ed0774dcc81b47f87f8e",
     "created": 1763377627376,
@@ -752,7 +752,7 @@
   },
   "573c9a9b7b98379e43c25a679c1ae0f97a575646f656bb9be34265116bb60ebf": {
     "active": true,
-    "hwid": "9123638553",
+    "hwid": null,
     "username": ".",
     "plainKey": "e542d96bd3bf94334f3ad685",
     "created": 1763378073683,
@@ -761,7 +761,7 @@
   },
   "3fb6e87e2680e4f907c5cae9981055d5ed76fdea99af19cf0e4f7128437d059c": {
     "active": true,
-    "hwid": "9948553349",
+    "hwid": null,
     "username": ".",
     "plainKey": "d611eb67e44a1049ef797b06",
     "created": 1763378075539,
@@ -797,7 +797,7 @@
   },
   "5c388a48f3c671844b119d29f513f49b203782127f7fe0a2aaf9b35f8935f097": {
     "active": true,
-    "hwid": "9668904824",
+    "hwid": null,
     "username": "Hael",
     "plainKey": "e5aa8842b0400cd1557f10d0",
     "created": 1763381117386,
@@ -806,7 +806,7 @@
   },
   "a3d3249958d10b66e358f928b2919fb092565e3401e24e235e59fe4b7b216e84": {
     "active": true,
-    "hwid": "9668904824",
+    "hwid": null,
     "username": "Hael",
     "plainKey": "0aad318b92e12188fadffba7",
     "created": 1763381118274,
@@ -842,7 +842,7 @@
   },
   "63eb9238dae8138ed736123386b6fc38ddbc4bc04da61902f6a29f9d217f3194": {
     "active": true,
-    "hwid": "9732392914",
+    "hwid": null,
     "username": "Exal",
     "plainKey": "1b8fc4b30e3c9f621c9b11d2",
     "created": 1763467803308,
@@ -851,7 +851,7 @@
   },
   "8d1437a715d468f4052b60fb73eb2092d506d5b3887668818faafb4fc986fc33": {
     "active": true,
-    "hwid": "9488937276",
+    "hwid": null,
     "username": "Exal",
     "plainKey": "56744896d2a0d22550b000e8",
     "created": 1763467807002,
@@ -860,7 +860,7 @@
   },
   "d52ef2a595355ed243100e789b97ea249ca3bf9b0c9307595b992c364d15ec05": {
     "active": false,
-    "hwid": "8733509589",
+    "hwid": null,
     "username": "Agastia",
     "plainKey": "7ac5ff9dfca70875758324e2",
     "created": 1763561543480,
@@ -869,7 +869,7 @@
   },
   "7335353ebb6d8507969e6d9bc9db63bd009577b6634147275bc6bf9ce1471d86": {
     "active": false,
-    "hwid": "9184260207",
+    "hwid": null,
     "username": "Agastia",
     "plainKey": "2818507043c5d122a2d1b8cd",
     "created": 1763561544424,
@@ -878,7 +878,7 @@
   },
   "e82d8d6b361bc265d31918daf803a68694562a350d4304c7092877993f8ce7d8": {
     "active": false,
-    "hwid": "4107544601",
+    "hwid": null,
     "username": "Agastia",
     "plainKey": "a8fa5574731b2450a2a88a59",
     "created": 1763561545951,
@@ -887,7 +887,7 @@
   },
   "20a47b81b0e01a46641599236fa048df7dc20cf234292377c2c906d856ed16d5": {
     "active": false,
-    "hwid": "8280985028",
+    "hwid": null,
     "username": "Agastia",
     "plainKey": "92445014365be3d2a607522d",
     "created": 1763561546904,
@@ -896,7 +896,7 @@
   },
   "f50d60ca25297a41bc34ec2250ee50524d7082b87751a66622b06c3a01401c47": {
     "active": false,
-    "hwid": "9325014652",
+    "hwid": null,
     "username": "Agastia",
     "plainKey": "eba9896395b22c53975093ed",
     "created": 1763561547761,
@@ -905,7 +905,7 @@
   },
   "5dc532b3c0507e2abbd1cbfeec9ca8fe4b1b71b82f3c1a00d89222f0bc6e556c": {
     "active": true,
-    "hwid": "9197864247",
+    "hwid": null,
     "username": "ayangbotak",
     "plainKey": "3e9d82c21f6457048302b1b8",
     "created": 1763570746709,
@@ -914,7 +914,7 @@
   },
   "fe6aa9a4fb2d7819b693b838f5a7cdcbd49ff3c572166386762598aa5a05f090": {
     "active": true,
-    "hwid": "8319617755",
+    "hwid": null,
     "username": "Rarze",
     "plainKey": "44916e5da47a70b1fd3d3910",
     "created": 1763614421047,
@@ -923,7 +923,7 @@
   },
   "cc59ac97f69baaae61a39a7e2da5f192b243b980de8e238c3af19ab5a345140f": {
     "active": true,
-    "hwid": "9842183697",
+    "hwid": null,
     "username": "Rarze",
     "plainKey": "fd6a4e1d2a392e7dd6fec624",
     "created": 1763614422075,
@@ -959,7 +959,7 @@
   },
   "af7485198c54f53415691f7db7f91449b39fbe1a66f01e21a9b0bb3081de3f37": {
     "active": true,
-    "hwid": "4372769123",
+    "hwid": null,
     "username": "Samadamazz",
     "plainKey": "e97086fce894f29fb433ad51",
     "created": 1763639167741,
@@ -968,7 +968,7 @@
   },
   "9e6a231cbf7773772156a10849f5a5ab0f0a72c363d47300472f6a31d7bc3571": {
     "active": true,
-    "hwid": "3256256556",
+    "hwid": null,
     "username": "Samadamazz",
     "plainKey": "0948a1f355aabb0b60268edd",
     "created": 1763639168688,
@@ -1049,7 +1049,7 @@
   },
   "2edae02932eda79125c8beca654f0b44d8358be0508838bc19cbcc633f337ed2": {
     "active": true,
-    "hwid": "8078675457",
+    "hwid": null,
     "username": "Cello",
     "plainKey": "bc851ed274c9e4fce4d6c906",
     "created": 1763641320791,
@@ -1058,7 +1058,7 @@
   },
   "0136d48b736734d0f714733ff12cbc9a0d71577c4f4567ae77554baa44c22887": {
     "active": true,
-    "hwid": "9378399732",
+    "hwid": null,
     "username": "Cello",
     "plainKey": "af4e9d759860b793e0e548f1",
     "created": 1763641321765,
@@ -1067,7 +1067,7 @@
   },
   "16cb488e1746e2012b4684cafa6f0dccf84b6881cd4dfb87a74bb028206db1e7": {
     "active": true,
-    "hwid": "8078535626",
+    "hwid": null,
     "username": "Cello",
     "plainKey": "d48255563666c6ba1741cbf0",
     "created": 1763641322741,
@@ -1103,7 +1103,7 @@
   },
   "718cf4d2ff079e3bfd28ecede8260d4ef723d77f4ec581f7d0c1377bdfc1f23c": {
     "active": true,
-    "hwid": "9574577074",
+    "hwid": null,
     "username": "Gentx",
     "plainKey": "0af9d5d1fbb078fef6ec2c66",
     "created": 1763642999364,
@@ -1112,7 +1112,7 @@
   },
   "0e3ddd0bf45029ae00b0034d16d0994484d80730b37a9423e2181825236de656": {
     "active": true,
-    "hwid": "8518403441",
+    "hwid": null,
     "username": "Gentx",
     "plainKey": "981845af59dfb64ab6736b29",
     "created": 1763643000348,
@@ -1184,7 +1184,7 @@
   },
   "8e850b219b80565c1d6094f7a2343b36985f338e0a14c3fd5a0ad9f2a24e62b1": {
     "active": true,
-    "hwid": "9459310835",
+    "hwid": null,
     "username": "Khyz k",
     "plainKey": "0d7abd7148f74d931438d598",
     "created": 1763645835683,
@@ -1193,7 +1193,7 @@
   },
   "6968570725de3275b59827ee33605f14ae287b3eedee4ed2d22eb8f6cfa41f1b": {
     "active": true,
-    "hwid": "9459310835",
+    "hwid": null,
     "username": "Khyz k",
     "plainKey": "9ccca35aa14584a7570707da",
     "created": 1763646449216,
@@ -1220,7 +1220,7 @@
   },
   "4638c3a81e1fc2e87e548cb0a39b10589ed104c5a3b2c13ba0339d1149090488": {
     "active": true,
-    "hwid": "9459310835",
+    "hwid": null,
     "username": "Khyz k",
     "plainKey": "78f000cebcefc6f7760d7131",
     "created": 1763646459158,
@@ -1238,7 +1238,7 @@
   },
   "f2aeee8742154960e26f2f689884a99e1fd9e8f251e789ec745c701d86262944": {
     "active": true,
-    "hwid": "9286439846",
+    "hwid": null,
     "username": "Ebbss",
     "plainKey": "50310602654767569781c979",
     "created": 1763649385012,
@@ -1256,7 +1256,7 @@
   },
   "10e36520cdcd89e6d4c7060ff82afde0b1df9ae43bb55c1c7f2d97789b3981e5": {
     "active": true,
-    "hwid": "9286439846",
+    "hwid": null,
     "username": "Ebbss",
     "plainKey": "6d36ae46b4f18867499489eb",
     "created": 1763649387207,
@@ -1274,7 +1274,7 @@
   },
   "05fbe11efff39776f167cdcad8e6e996b073849acce5d8c4bdc375a67c9cd3bb": {
     "active": true,
-    "hwid": "9286439846",
+    "hwid": null,
     "username": "Ebbss",
     "plainKey": "9c1cef9c983519726d14f96c",
     "created": 1763649389193,
@@ -1283,7 +1283,7 @@
   },
   "1e42fcecdc2856dbe15df63efb072f4c59b7135e385b69fb5e43e9f2c380496e": {
     "active": true,
-    "hwid": "9286439846",
+    "hwid": null,
     "username": "Ebbss",
     "plainKey": "aaa4b3c95b841d965179aa72",
     "created": 1763649392293,
@@ -1292,7 +1292,7 @@
   },
   "1ceb9c135b255093198896d0315f86cc054a5073f99b4b93a27429462439e1a7": {
     "active": true,
-    "hwid": "9286439846",
+    "hwid": null,
     "username": "Ebbss",
     "plainKey": "a05de97e923fe6a16cea95ca",
     "created": 1763649393248,
@@ -1301,7 +1301,7 @@
   },
   "55581daf634fff6c0803bafc3278662252606e9246572a655e70dde0e86a134e": {
     "active": true,
-    "hwid": "9286439846",
+    "hwid": null,
     "username": "Ebbss",
     "plainKey": "a105092d0a806caa87fd7d69",
     "created": 1763649394218,
@@ -1310,7 +1310,7 @@
   },
   "4b572ba991e5f9caa7d97a73a0277276adfa29aeacb810e479665a874c6e06a5": {
     "active": true,
-    "hwid": "9286439846",
+    "hwid": null,
     "username": "Ebbss",
     "plainKey": "10d1ced522d5c8ae0b657365",
     "created": 1763649395090,
@@ -1319,7 +1319,7 @@
   },
   "80edf3543b3d0e36f4b18c50552a3ce7e34dba06cb8d810b08d98cf05528e9ab": {
     "active": true,
-    "hwid": "9286439846",
+    "hwid": null,
     "username": "Ebbss",
     "plainKey": "52706f0579e39f3e05e2159a",
     "created": 1763649395902,
@@ -1328,7 +1328,7 @@
   },
   "57bb4b1f9b5e1b0d1288c024668bd09f21811c4a855058204d2ef97b9e28aa2e": {
     "active": true,
-    "hwid": "9534296161",
+    "hwid": null,
     "username": "Ripsz",
     "plainKey": "c92dc0c688a8751bd6114b00",
     "created": 1763652264113,
@@ -1337,7 +1337,7 @@
   },
   "7914bbe67b20eceebf4e9cfddfd6f81fdcda1e9bc838c8662021bb1275340b8e": {
     "active": true,
-    "hwid": "9962480921",
+    "hwid": null,
     "username": "Ripsz",
     "plainKey": "be4ad59a0ac991bfb0d43a36",
     "created": 1763652265047,
@@ -1346,7 +1346,7 @@
   },
   "6368a16dc1cb0e500cf34623a3c4b17c8215903b0a0639c366b6d1dc71fbeb75": {
     "active": true,
-    "hwid": "9980871722",
+    "hwid": null,
     "username": "Ripsz",
     "plainKey": "062e4c2c345a5956ded266f9",
     "created": 1763652266117,
@@ -1373,7 +1373,7 @@
   },
   "d753ab17755ab7321b4b8803074d2dfa0fb47fd52e1f93ab44fe33c888000bca": {
     "active": true,
-    "hwid": "3359485593",
+    "hwid": null,
     "username": "PalaluGEDE",
     "plainKey": "5bb9e1842f42ba5ca13a2bfc",
     "created": 1763654686832,
@@ -1418,7 +1418,7 @@
   },
   "3acb5c0092e87ded9a80949a1113760a5ab7dd5b7be4f3b58786503a629defce": {
     "active": true,
-    "hwid": "9814224324",
+    "hwid": null,
     "username": "RDN",
     "plainKey": "d247fc72a6793aa3ec5ac0ba",
     "created": 1763657195575,
@@ -1427,7 +1427,7 @@
   },
   "ba3e87f19667e864b22457526005a29f05a93ba74d59eccab64199f8e700f119": {
     "active": true,
-    "hwid": "6067791820",
+    "hwid": null,
     "username": "RDN",
     "plainKey": "0ae70de831f479ef64e184b7",
     "created": 1763657196417,
@@ -1463,7 +1463,7 @@
   },
   "767e2a60aba8c1f92db87dc60debeb25e658372aedbb07df092d934dc4218724": {
     "active": true,
-    "hwid": "9664812629",
+    "hwid": null,
     "username": "Dytss",
     "plainKey": "0bbdb16eedb821493f655ac4",
     "created": 1763678602268,
@@ -1472,7 +1472,7 @@
   },
   "99847a01eb898c5ab6f37f941b326ba650ceebe3af766ae939d5593ca332028e": {
     "active": true,
-    "hwid": "8425533150",
+    "hwid": null,
     "username": "Dytss",
     "plainKey": "993bc2472fc561057e45172e",
     "created": 1763678603349,
@@ -1499,7 +1499,7 @@
   },
   "227d3fa74e9f921d0fd3f237dc159a8513ec34a88b93cbf6588c125df0533a3e": {
     "active": true,
-    "hwid": "9499742991",
+    "hwid": null,
     "username": "Dytss",
     "plainKey": "fa4be8c14704e4d987b00d5d",
     "created": 1763678605909,
@@ -1508,7 +1508,7 @@
   },
   "0e272f3da8115147ae1bec4371770b36eeeefdeeedd294f5d3c32f1ba30a0cc5": {
     "active": true,
-    "hwid": "1726162802",
+    "hwid": null,
     "username": "Cs 3",
     "plainKey": "6936077581f08946b514128f",
     "created": 1763683248372,
@@ -1553,7 +1553,7 @@
   },
   "cd654b5043f4e1411710d4a831b06bfa757580b306e51c04ef27642b73083a99": {
     "active": true,
-    "hwid": "466353388",
+    "hwid": null,
     "username": "Daffa",
     "plainKey": "852d7fe3e04f779cdca85dac",
     "created": 1763690117413,
@@ -1598,7 +1598,7 @@
   },
   "21b188153845dad03544135452ab1b617089808eb5350a55054121c174f7beae": {
     "active": true,
-    "hwid": "8633037666",
+    "hwid": null,
     "username": "Louis2",
     "plainKey": "9989ca0548c8bb66c31d0699",
     "created": 1763693971419,
@@ -1643,7 +1643,7 @@
   },
   "babf87cb78469951838542b3dec411735c5500c994aeb640c4f5c2e9d0097f5a": {
     "active": true,
-    "hwid": "1981653932",
+    "hwid": null,
     "username": "Masbro",
     "plainKey": "ca2d770a39094df5f92eb270",
     "created": 1763695133871,
@@ -1652,7 +1652,7 @@
   },
   "17800861d641e4799a4d6a4269f1b7b7fc6a6815a3e03bf7e1f5f6e4c654f9bd": {
     "active": true,
-    "hwid": "9712671250",
+    "hwid": null,
     "username": "Masbro",
     "plainKey": "59e466d37234ff46ff120764",
     "created": 1763695134847,
@@ -1661,7 +1661,7 @@
   },
   "0c45bfd3b322a3a7b55fabf6cea978c505163f50e1aff21d768a64322c47ec6d": {
     "active": true,
-    "hwid": "9841781929",
+    "hwid": null,
     "username": "Masbro",
     "plainKey": "e708e8284488ce1d607a9165",
     "created": 1763695135839,
@@ -1679,7 +1679,7 @@
   },
   "1dc009e38fac90324fe4674bfee572c992f8e479da1ea014dbfbb4e1f836ec92": {
     "active": true,
-    "hwid": "9023455883",
+    "hwid": null,
     "username": "Masbro",
     "plainKey": "1f43b39d644acc78489ad59a",
     "created": 1763695137603,
@@ -1688,7 +1688,7 @@
   },
   "6b3eadb23f988461d471c18284ca728c3c6dde92be901396767fd57142ace6f8": {
     "active": true,
-    "hwid": "9256001798",
+    "hwid": null,
     "username": "Gusnie",
     "plainKey": "2ec507b4ee15244c12616835",
     "created": 1763696356929,
@@ -1697,7 +1697,7 @@
   },
   "1d052a1155b0427eca8febbde04af35c499a2add3e20d307cdac954c868cc68d": {
     "active": true,
-    "hwid": "9256001798",
+    "hwid": null,
     "username": "Gusnie",
     "plainKey": "e6d8e0f692ca82a6d1a90cc6",
     "created": 1763696357970,
@@ -1715,7 +1715,7 @@
   },
   "a3fdfb578dd3eb6a66a97cabe8e5c84eff50a751580ddb1ca47e8ed773bf45a5": {
     "active": true,
-    "hwid": "9256001798",
+    "hwid": null,
     "username": "Gusnie",
     "plainKey": "42c7bc21488fd6d59773ae48",
     "created": 1763696359732,
@@ -1724,7 +1724,7 @@
   },
   "9bbced8e826748a03c8a4729d38d389665b5db2c35a3556ae78c430c7a5f0966": {
     "active": true,
-    "hwid": "9854373918",
+    "hwid": null,
     "username": "Gusnie",
     "plainKey": "3400d69e82d98475235c021a",
     "created": 1763696360553,
@@ -1742,7 +1742,7 @@
   },
   "e777373a2c1a183634e8cf0a8bf6e052358dc3978f461654ff6ec4e4529af7cb": {
     "active": true,
-    "hwid": "9598419613",
+    "hwid": null,
     "username": "Sobaru kun",
     "plainKey": "4440f065bc56ab6c36057ecf",
     "created": 1763793521033,
@@ -1751,7 +1751,7 @@
   },
   "3c31ef7644125c5ae34f76949c95f72258957179129ad9fadf31cc4113cd649b": {
     "active": true,
-    "hwid": "9723326250",
+    "hwid": null,
     "username": "Sobaru kun",
     "plainKey": "6f1b2d7af5ff98dca00dd562",
     "created": 1763793521984,
@@ -1769,7 +1769,7 @@
   },
   "b900915064225a9a1e1a00056a3164e82b991856b452cade4754bbbfca13177c": {
     "active": true,
-    "hwid": "9329845403",
+    "hwid": null,
     "username": "Sobaru kun",
     "plainKey": "acc13071b35227fff734ec59",
     "created": 1763793523759,
@@ -1778,7 +1778,7 @@
   },
   "2f17ae0f1a244933b38a96a48b9b8c42aa60ad2cd3d9db3c118bf947fac0b035": {
     "active": true,
-    "hwid": "9598419613",
+    "hwid": null,
     "username": "Sobaru kun",
     "plainKey": "88d64996368ea48ed9c27e14",
     "created": 1763793524531,
@@ -1787,7 +1787,7 @@
   },
   "ddd5e376c99310751c1e35cc60394bf22bfde77bc8c7ee75e71d6a36fe0cf041": {
     "active": true,
-    "hwid": "4474028957",
+    "hwid": null,
     "username": "Ryzless",
     "plainKey": "bc2606530d57d15cff0c480d",
     "created": 1763795563997,
@@ -1832,7 +1832,7 @@
   },
   "dc4fba3fc4536e1de500346cca13064bdf2eb6ef38147afed9e7a322f8bf7394": {
     "active": true,
-    "hwid": "4474028957",
+    "hwid": null,
     "username": "Ryzless",
     "plainKey": "378dc93e28d60255ed8aadff",
     "created": 1763795624284,
@@ -1877,7 +1877,7 @@
   },
   "4b8b452bec240a87cea95789c594767dfe91a581f679e78757cf90bc2a1b3149": {
     "active": true,
-    "hwid": "9952489381",
+    "hwid": null,
     "username": "Ekwng",
     "plainKey": "c9aeeb388fe8797e9f705b50",
     "created": 1763796153633,
@@ -1886,7 +1886,7 @@
   },
   "0757b9b848472b50acfe1338918d2069ef13389ebc0587399bd6ca714c207d62": {
     "active": true,
-    "hwid": "7486669473",
+    "hwid": null,
     "username": "Ekwng",
     "plainKey": "3cab493bd079310a6e15517d",
     "created": 1763796154642,
@@ -1895,7 +1895,7 @@
   },
   "24b5d6701751a680e2544d31f4caac062777b262d6f0ee04127b1d21344fc4cf": {
     "active": true,
-    "hwid": "7486669473",
+    "hwid": null,
     "username": "Ekwng",
     "plainKey": "de68dbdd1ff1624809e0fea7",
     "created": 1763796155471,
@@ -1922,7 +1922,7 @@
   },
   "ed3608a47609bd7b906ef79dcd1b0c6d2cc761ffb27e8b86f655f20e5c6433ff": {
     "active": true,
-    "hwid": "9342162238",
+    "hwid": null,
     "username": "Walkw",
     "plainKey": "c37a946f679c2d50c2148e52",
     "created": 1763800451899,
@@ -1931,7 +1931,7 @@
   },
   "b9f0d5d927668614e0f8ba777d44748eb745ac22d3461c2fdcdb4e41c051a01c": {
     "active": true,
-    "hwid": "9722724628",
+    "hwid": null,
     "username": "Sihabudin",
     "plainKey": "19a81b4dba35bbaef2c94f05",
     "created": 1763801078502,
@@ -1940,7 +1940,7 @@
   },
   "65ac2e093f0d6afee90edfa7d1d5d31b7837b77bf266a968cfed03f1298655a4": {
     "active": true,
-    "hwid": "9722724628",
+    "hwid": null,
     "username": "Sihabudin",
     "plainKey": "6f83b217e896c00a65333f71",
     "created": 1763801079765,
@@ -1949,7 +1949,7 @@
   },
   "0e6644a9a159bf290cba66f3531bd96bcdfd8e8212816ef4c8444e9baa0c3374": {
     "active": true,
-    "hwid": "8897229889",
+    "hwid": null,
     "username": "Sihabudin",
     "plainKey": "60e10c3c589b7729ccc20f8b",
     "created": 1763801080357,
@@ -1976,7 +1976,7 @@
   },
   "ff0ea06ca6b15f851ca831fd4ac18c39412d4c766aa27ce7a1345aaa52580718": {
     "active": true,
-    "hwid": "8241312853",
+    "hwid": null,
     "username": "Faresyareu",
     "plainKey": "5cc1d25e996d96c495596605",
     "created": 1763804912980,
@@ -1985,7 +1985,7 @@
   },
   "c0bdaf40a12a41d87735d756f6db22e9cf26d3cc6ad0bece02114f3318cba987": {
     "active": true,
-    "hwid": "9274790916",
+    "hwid": null,
     "username": "Faresyareu",
     "plainKey": "45783fcde0ba25393c5242ee",
     "created": 1763804913841,
@@ -1994,7 +1994,7 @@
   },
   "d24c40132a1b702ec0d75519217c948f45c71fedf4ad5f26449a83592fb6be55": {
     "active": true,
-    "hwid": "9999712466",
+    "hwid": null,
     "username": "Faresyareu",
     "plainKey": "999f8b6f3c80527765a4ebec",
     "created": 1763804914683,
@@ -2003,7 +2003,7 @@
   },
   "71b4db23aac16976fe4ddd0e0cbbaa10f18caff7e0f6703b1112910e97616dd2": {
     "active": true,
-    "hwid": "9999712466",
+    "hwid": null,
     "username": "Faresyareu",
     "plainKey": "b788a31271d186bf70b705e8",
     "created": 1763804915440,
@@ -2012,7 +2012,7 @@
   },
   "2b3aa056a2feb004c4b5b2b83e4d4d1fda0a0d08ac731dc4a0f5bd01a47ca03e": {
     "active": true,
-    "hwid": "9298732347",
+    "hwid": null,
     "username": "Faresyareu",
     "plainKey": "88ab7f5809761ffcd9f5a577",
     "created": 1763804916160,
@@ -2021,7 +2021,7 @@
   },
   "421f1faf815a653aba51b6b86cb2cf0453311a91c26807519fddd5199192b678": {
     "active": true,
-    "hwid": "8831661387",
+    "hwid": null,
     "username": "Lerr",
     "plainKey": "23c2e7dfea6ba1f315c69ace",
     "created": 1763815933795,
@@ -2030,7 +2030,7 @@
   },
   "152e490d1411450decd2ef5b7599667812578788df76a51fad39518f69dab63b": {
     "active": true,
-    "hwid": "9483623613",
+    "hwid": null,
     "username": "Lerr",
     "plainKey": "0f3c7af5854f34867a651b2a",
     "created": 1763815934602,
@@ -2039,7 +2039,7 @@
   },
   "4b7faaedf68c1aa53aff084bc31ae4294b80dfa2e81b19b4b36c95197016f3ad": {
     "active": true,
-    "hwid": "8831661387",
+    "hwid": null,
     "username": "Lerr",
     "plainKey": "a831bd5aead6207bf9906b7b",
     "created": 1763815935392,
@@ -2048,7 +2048,7 @@
   },
   "e1901c7dbd95446598855744d1d4f89ab6ca98583405e599ad9844e8d27b6f57": {
     "active": true,
-    "hwid": "9483623613",
+    "hwid": null,
     "username": "Lerr",
     "plainKey": "670bc737636cab2462f90dfe",
     "created": 1763815936204,
@@ -2057,7 +2057,7 @@
   },
   "6faf771c7e6400fd3230d8873b4c3a0b18816177bcb80b986a079300cc7a73b3": {
     "active": true,
-    "hwid": "8831661387",
+    "hwid": null,
     "username": "Lerr",
     "plainKey": "5fdc4b11ee6ded3ecb2f0894",
     "created": 1763815936904,
@@ -2066,7 +2066,7 @@
   },
   "df2d6d5191bbfeb74919f758211c304b527035e037127d51ebf1461219716879": {
     "active": true,
-    "hwid": "4021070099",
+    "hwid": null,
     "username": "Nancy",
     "plainKey": "be93f38fb46d2505ee888764",
     "created": 1763849780171,
@@ -2111,7 +2111,7 @@
   },
   "33719ca68babe8e7d99a339faab9074b1867ae2caf1b7a1cdfff7eb2a22c73dd": {
     "active": true,
-    "hwid": "4372769123",
+    "hwid": null,
     "username": "Samadamaz",
     "plainKey": "5b0a1d246aaee57b550c8298",
     "created": 1763858084487,
@@ -2120,7 +2120,7 @@
   },
   "7819b58dbf85dd04877a1a2b01524da7edc45d3e0ccb709784fbd3f2c7eb1f1a": {
     "active": true,
-    "hwid": "3256256556",
+    "hwid": null,
     "username": "Samadamaz",
     "plainKey": "33011e63dae8013ec3a2f55b",
     "created": 1763858085396,
@@ -2156,7 +2156,7 @@
   },
   "cbbdd1a39656e0f09c2090602b45d7b35f831c952f504cac6c888e72e369172b": {
     "active": true,
-    "hwid": "9836702896",
+    "hwid": null,
     "username": "Xfroce",
     "plainKey": "a3618b9a735a265477ebdc55",
     "created": 1763883906487,
@@ -2165,7 +2165,7 @@
   },
   "b08bab37875fd9b44abe3cd4e5256aeccf0baaf0e682e52296d310ded2b63478": {
     "active": true,
-    "hwid": "9812234930",
+    "hwid": null,
     "username": "Xfroce",
     "plainKey": "265ee03b2cbde4fb39c08535",
     "created": 1763883907619,
@@ -2237,7 +2237,7 @@
   },
   "9c68fbbee67dfab250fb2b8379308b9541fca993863037460fb234760d18e413": {
     "active": true,
-    "hwid": "7265476953",
+    "hwid": null,
     "username": "Rex",
     "plainKey": "884e67b1a7b349e22ff98d7d",
     "created": 1763889506141,
@@ -2246,7 +2246,7 @@
   },
   "02980ae0d3222195fd5c6b0bbd3fc0c8a8522904ac5ce8bff8ba7c433db6bed0": {
     "active": true,
-    "hwid": "9651232919",
+    "hwid": null,
     "username": "Muqrialdn",
     "plainKey": "3f284baaf47e38285bd40e94",
     "created": 1763889701834,
@@ -2255,7 +2255,7 @@
   },
   "9812fd3603294da47040f4291128ddeebb99be169cf43e3eae709ff085971a58": {
     "active": true,
-    "hwid": "9871314701",
+    "hwid": null,
     "username": "Muqrialdn",
     "plainKey": "644aba08ee3d0cbab9f79af3",
     "created": 1763889702925,
@@ -2291,7 +2291,7 @@
   },
   "1ca3c1e29bbc46320a758cdc8cd1040e9760328e8c1c179eca65331bb8617863": {
     "active": true,
-    "hwid": "7236558066",
+    "hwid": null,
     "username": "Kue keju",
     "plainKey": "d29045a8e5887f39dc22194e",
     "created": 1763900155672,
@@ -2300,7 +2300,7 @@
   },
   "bf1c6a454a08525b3f746ee34577c7154d12b631f90953220615dc1cb1fe0b38": {
     "active": true,
-    "hwid": "10015409484",
+    "hwid": null,
     "username": "Kue keju",
     "plainKey": "b52e1f3d10413a783d589dbe",
     "created": 1763900156549,
@@ -2309,7 +2309,7 @@
   },
   "6c293ff27dd6f846c5ffd02bb5c99a0e6635764a72971a0dec426fe9293aae6d": {
     "active": true,
-    "hwid": "10015409484",
+    "hwid": null,
     "username": "Kue keju",
     "plainKey": "dc789ccb4ca10e801707a213",
     "created": 1763900157430,
@@ -2318,7 +2318,7 @@
   },
   "3b4b51551e9b7da720185e1db188345100e014b690d5068d39793e7fc831f501": {
     "active": true,
-    "hwid": "9718997119",
+    "hwid": null,
     "username": "Kue keju",
     "plainKey": "366dc2a794ddb20bc727eb77",
     "created": 1763900158213,
@@ -2327,7 +2327,7 @@
   },
   "9d6068fd501644c09dc90ccc1e1d53a19898749015a5185bead697e7eb887190": {
     "active": true,
-    "hwid": "10015409484",
+    "hwid": null,
     "username": "Kue keju",
     "plainKey": "d64876fd39ba70ebd6ad0c6d",
     "created": 1763900158991,
@@ -2336,7 +2336,7 @@
   },
   "924593b8bf13fadaee72b78ebe72eba1f72948b5baa488e0b261425b1ff88c90": {
     "active": true,
-    "hwid": "7236558066",
+    "hwid": null,
     "username": "Kue keju",
     "plainKey": "b8d8380b8d91c0a0722ca47e",
     "created": 1763900529826,
@@ -2381,7 +2381,7 @@
   },
   "16d8c9963fc744fb1766bb3bdb80a3e59d7588cb537879bfb44d8b80e4f0a653": {
     "active": true,
-    "hwid": "9523859834",
+    "hwid": null,
     "username": "DizyPizy",
     "plainKey": "e42dd4f9e3448c57b835ba61",
     "created": 1763923264738,
@@ -2390,7 +2390,7 @@
   },
   "c86303a9de92df6ade1467ae818fb6b828931243bd94d1bf5bb83fb220e61dd6": {
     "active": true,
-    "hwid": "8934697060",
+    "hwid": null,
     "username": "DizyPizy",
     "plainKey": "3421591bf5f02b5ef67044ba",
     "created": 1763923265887,
@@ -2417,7 +2417,7 @@
   },
   "c94c8a8bf50ae7521451f65eea78bf12d8f3f3ab1b34eebd5cd8ddd72e94df01": {
     "active": true,
-    "hwid": "8934697060",
+    "hwid": null,
     "username": "DizyPizy",
     "plainKey": "ee15d4aca042e8be695cee47",
     "created": 1763923268439,
@@ -2426,7 +2426,7 @@
   },
   "053264bbfdb5d5427a08c793dd4badb29c4502f2f9cdee88f70aec4ca2facdd3": {
     "active": true,
-    "hwid": "9523859834",
+    "hwid": null,
     "username": "DizyPizy",
     "plainKey": "f5b082cf7d9bacbf1951a9af",
     "created": 1763923274577,
@@ -2471,7 +2471,7 @@
   },
   "97abfbf20a5e9b1054874d840ef591230311134a399f0f406d663ad4e3661a69": {
     "active": true,
-    "hwid": "9389238524",
+    "hwid": null,
     "username": "Zikri",
     "plainKey": "66ccabaa40ea1378cbf0b806",
     "created": 1763991749984,
@@ -2480,7 +2480,7 @@
   },
   "bd0eeff7b5cdb7c8efb9b9c4ee75b73269487d947f673115de547a4ac6265cbb": {
     "active": true,
-    "hwid": "9389238524",
+    "hwid": null,
     "username": "Zikri",
     "plainKey": "a7ff3f999b45843c15066583",
     "created": 1763991751029,
@@ -2489,7 +2489,7 @@
   },
   "4ebf147f8f19d2ead630514644e4f35ba3883eb52faf362e08566d1b1028987d": {
     "active": true,
-    "hwid": "9389238524",
+    "hwid": null,
     "username": "Zikri",
     "plainKey": "e229d6de116bbc4f81f58dac",
     "created": 1763991751961,
@@ -2498,7 +2498,7 @@
   },
   "8aeb75c0ccfd1b7abb7c8ecaf879c64c06b3f617fe7cc23904f7bf31a9bba491": {
     "active": true,
-    "hwid": "9537843905",
+    "hwid": null,
     "username": "Zikri",
     "plainKey": "7e476f20910f71100662445a",
     "created": 1763991752843,
@@ -2543,7 +2543,7 @@
   },
   "77ba0bbce08d0c47841775fa4378ea81c830ca2c552a7158bb23a2193377a1d7": {
     "active": true,
-    "hwid": "6082393791",
+    "hwid": null,
     "username": "Legendmc",
     "plainKey": "bc664bbe7ed0dc2126cc0375",
     "created": 1763991949815,
@@ -2552,7 +2552,7 @@
   },
   "3b813e073fb103af25ead1048c3721642e58ab42e33423d99993f06d998d6e86": {
     "active": true,
-    "hwid": "8884606920",
+    "hwid": null,
     "username": "Legendmc",
     "plainKey": "88972256f31218787ad250a2",
     "created": 1763991950466,
@@ -2597,7 +2597,7 @@
   },
   "7b2c774a20e348a52d2c55f65b62e4f785492d8ddb24691726360d9df4a06907": {
     "active": true,
-    "hwid": "9409202842",
+    "hwid": null,
     "username": "Imii",
     "plainKey": "4bd10eb87053fdcc5b805fe8",
     "created": 1763993752431,
@@ -2633,7 +2633,7 @@
   },
   "d128345ea032d124ca7320d31f32d1b40457b113a05cf83a24edce986e731319": {
     "active": true,
-    "hwid": "7402544452",
+    "hwid": null,
     "username": "Biame",
     "plainKey": "b2dda4bc0e790a2f8e68e1bf",
     "created": 1763998801023,
@@ -2642,7 +2642,7 @@
   },
   "32a1ed025b71c7f24d0fd6a4180a9fb8417ddc404887a2086a2bec94b10030a9": {
     "active": true,
-    "hwid": "7402544452",
+    "hwid": null,
     "username": "Biame",
     "plainKey": "2abac5831b0f82a1872dcb19",
     "created": 1763998801827,
@@ -2651,7 +2651,7 @@
   },
   "4c345b47ebe086e0954bbb2e522541beaf3cdd41034dead7a60dee0f7e572d95": {
     "active": true,
-    "hwid": "9324450732",
+    "hwid": null,
     "username": "Ffat",
     "plainKey": "25374ab4bd801e9481520c4c",
     "created": 1764003138956,
@@ -2660,7 +2660,7 @@
   },
   "baa409c1358626c55b93c8f8079f4ede15a9726a11b56dbed5b01e55c28fd3f7": {
     "active": true,
-    "hwid": "9324450732",
+    "hwid": null,
     "username": "Ffat",
     "plainKey": "30a70a42fd85d62887a7e09a",
     "created": 1764003139674,
@@ -2669,7 +2669,7 @@
   },
   "1ad9616e3a040d990e5e8c7d5edc483d551655ef5cc9dfb128b8a8d8f18e9cb0": {
     "active": true,
-    "hwid": "8982228161",
+    "hwid": null,
     "username": "Ffat",
     "plainKey": "5047ae3d9089810828dae040",
     "created": 1764003140524,
@@ -2678,7 +2678,7 @@
   },
   "ed7b0bbb1fa731529caad7756843da4dbd3b74acf5e88bfc3a20418b9187bb1f": {
     "active": true,
-    "hwid": "9611439299",
+    "hwid": null,
     "username": "Ffat",
     "plainKey": "4f74c575e79ea47cbe4fb32f",
     "created": 1764003141252,
@@ -2687,7 +2687,7 @@
   },
   "f6583551079bfe7e188de9fcf7d4d84c12f69834ad4ae688e7e56b6d2fe80d68": {
     "active": true,
-    "hwid": "9324450732",
+    "hwid": null,
     "username": "Ffat",
     "plainKey": "961cb50a2aad12ce62239052",
     "created": 1764003142036,
@@ -2696,7 +2696,7 @@
   },
   "e261c0064b6efd806b5806e0fee5852b43d1d694214b1f746998f2bdff0aa876": {
     "active": true,
-    "hwid": "9863170529",
+    "hwid": null,
     "username": "Rianz",
     "plainKey": "ba40c7fa21bc428ba615fb9c",
     "created": 1764042235371,
@@ -2714,7 +2714,7 @@
   },
   "bfb60b7c7f956365c0891a9760514832a9af61712ef78e2f6d2d7776c34d2d50": {
     "active": true,
-    "hwid": "9863170529",
+    "hwid": null,
     "username": "Rianz",
     "plainKey": "15160eedd38eb7b6ebee8a6f",
     "created": 1764042238306,
@@ -2723,7 +2723,7 @@
   },
   "5ced93847960c68225e51fd7f46c08dd23ca1e229be03f9127cbef0ae0b09936": {
     "active": true,
-    "hwid": "9508988317",
+    "hwid": null,
     "username": "Rianz",
     "plainKey": "70bf5bcf31054f58085b66be",
     "created": 1764042239626,
@@ -2732,7 +2732,7 @@
   },
   "fa262fb2cbaa30f16b2b491cb25e852440251f60751f9f8624924d119fe7d0b6": {
     "active": true,
-    "hwid": "9863170529",
+    "hwid": null,
     "username": "Rianz",
     "plainKey": "0c3a277a302e9eec53265b89",
     "created": 1764042241177,
@@ -2741,7 +2741,7 @@
   },
   "5aa2b41abc21ad39f1ab7fd56cf28bd8f257e877a48cd2533c2ec8dddea7001b": {
     "active": true,
-    "hwid": "8454156827",
+    "hwid": null,
     "username": "Fsyidtune",
     "plainKey": "fa666f41f4232857279f9a92",
     "created": 1764051625840,
@@ -2786,7 +2786,7 @@
   },
   "d959da0280ac39a36bc79b48979551fd70058ed89ce1e03b0d7f32d1a9eb2693": {
     "active": true,
-    "hwid": "680142019",
+    "hwid": null,
     "username": "Habeb",
     "plainKey": "d9a9a079407f40cdc5b2722d",
     "created": 1764054998424,
@@ -2795,7 +2795,7 @@
   },
   "7ad68620f08aaee1c32f91e910cd326fbd877dd365e6f5df03bc4285b6a07859": {
     "active": true,
-    "hwid": "9966221376",
+    "hwid": null,
     "username": "Habeb",
     "plainKey": "d88395802db11d0f2439208c",
     "created": 1764054999439,
@@ -2804,7 +2804,7 @@
   },
   "b041ae0f5b90328f19d9d738b4edd05dabf67aa816de355867de47c3e837e531": {
     "active": true,
-    "hwid": "9846698696",
+    "hwid": null,
     "username": "Habeb",
     "plainKey": "384491d2ebc7d69fe90bb76d",
     "created": 1764055000391,
@@ -2813,7 +2813,7 @@
   },
   "452b9ed05c58106b196f02f92b7f87691eac3b500ad9f1b535ac808cdc6a681e": {
     "active": true,
-    "hwid": "9673352393",
+    "hwid": null,
     "username": "Habeb",
     "plainKey": "1a4272293459e068c9e5ea11",
     "created": 1764055001322,
@@ -2822,7 +2822,7 @@
   },
   "d31fe9174cf6e30e42cf59c014987d5bc71577debe93a3723626a74f9d045ee1": {
     "active": true,
-    "hwid": "9881504151",
+    "hwid": null,
     "username": "Habeb",
     "plainKey": "25889f6a24c9c1fbc971e16c",
     "created": 1764055002050,
@@ -2831,7 +2831,7 @@
   },
   "7f95ced4e1adf3850b2c8da4917503367d8334c2627da0aacb43deffed5a16be": {
     "active": true,
-    "hwid": "9280439805",
+    "hwid": null,
     "username": "MeAve",
     "plainKey": "a40677c9c26a0c70d93d17bc",
     "created": 1764100233681,
@@ -2840,7 +2840,7 @@
   },
   "34af4481ab3529a4bbfd62930a83ce1595e243c66c330d91b9ffd1004fbd1e91": {
     "active": true,
-    "hwid": "9280439805",
+    "hwid": null,
     "username": "MeAve",
     "plainKey": "196822aa77ed25b2a9253943",
     "created": 1764100234564,
@@ -2849,7 +2849,7 @@
   },
   "a83631ea5b8bd2c4d5dcfdc01ab46b27f23652719a41f4dc2049ce8a63953a51": {
     "active": true,
-    "hwid": "9280439805",
+    "hwid": null,
     "username": "MeAve",
     "plainKey": "13962cec2c563d144ed154e3",
     "created": 1764100235503,
@@ -2858,7 +2858,7 @@
   },
   "acc0e6caa08a423af105a101075ad6b465ce32f3a3a67a4b7265c80c4a44353d": {
     "active": true,
-    "hwid": "9280439805",
+    "hwid": null,
     "username": "MeAve",
     "plainKey": "e3dbae7edcd2911b316352b3",
     "created": 1764100236310,
@@ -2867,7 +2867,7 @@
   },
   "e25eda5a479331aab98c60433d4d4261e597fd73c1a43552df805978f4cdd337": {
     "active": true,
-    "hwid": "9280439805",
+    "hwid": null,
     "username": "MeAve",
     "plainKey": "d8452d847838fbff0494103d",
     "created": 1764100237123,
@@ -2876,7 +2876,7 @@
   },
   "38acf2b25112af9609f3fd973398e4246cba1fe24b67eb39d4a02627b8c9df43": {
     "active": true,
-    "hwid": "9280439805",
+    "hwid": null,
     "username": "MeAve",
     "plainKey": "6a46e1a2984a88cc9d5d2323",
     "created": 1764100241750,
@@ -2894,7 +2894,7 @@
   },
   "bca406be977e807008e8aac855491b4ae3a576e181beba6d1bddf6347fda0f30": {
     "active": true,
-    "hwid": "9826265434",
+    "hwid": null,
     "username": "MeAve",
     "plainKey": "9fd75a7d0c4b101802eae693",
     "created": 1764100243737,
@@ -2912,7 +2912,7 @@
   },
   "f452261e3ddbd66cea391f1b2a64eb9876bb07f5c8881c3bb06f50f713fd52d8": {
     "active": true,
-    "hwid": "9826265434",
+    "hwid": null,
     "username": "MeAve",
     "plainKey": "eb573cd3ce91e6dde17a5134",
     "created": 1764100245537,
@@ -2921,7 +2921,7 @@
   },
   "db36c3a053eefed60c28a6c4c94f6d9480dcc9ded23573401ef754c495c095f2": {
     "active": true,
-    "hwid": "9939288730",
+    "hwid": null,
     "username": "Iyalah",
     "plainKey": "1ee29c1a3ee90e90ed75b3ed",
     "created": 1764131264948,
@@ -2930,7 +2930,7 @@
   },
   "3ee9ce41c3019861c0f4d5b8124dc021a3bada1d3a9a1618a4769f1e7bf7aa19": {
     "active": true,
-    "hwid": "7316267559",
+    "hwid": null,
     "username": "Zann",
     "plainKey": "26d2c47b1a4062fbcd7e95d6",
     "created": 1764138176181,
@@ -2939,7 +2939,7 @@
   },
   "a8ce01cce50591924e5ad7761576a96422d460941241a67ca95fb5ddc52c73a4": {
     "active": true,
-    "hwid": "8360799198",
+    "hwid": null,
     "username": "Rakman",
     "plainKey": "372275ab6d6e30c62e3831d4",
     "created": 1764140552324,
@@ -2984,7 +2984,7 @@
   },
   "ee46b2472b6b7ea552de74e2268d5a901fb005f4cb93a28d746477d8730fb484": {
     "active": true,
-    "hwid": "6032386982",
+    "hwid": null,
     "username": "Syathir 123",
     "plainKey": "6a6aa753d03bdbd77d27861b",
     "created": 1764229670217,
@@ -2993,7 +2993,7 @@
   },
   "b7031657b9f3f1ea31a3c30cf9a6afb63f5e8b710d4290f7bf7c49a8bad429b1": {
     "active": true,
-    "hwid": "9889539260",
+    "hwid": null,
     "username": "Syathir 123",
     "plainKey": "7e13c76345781f7e806d44fb",
     "created": 1764229672409,
@@ -3002,7 +3002,7 @@
   },
   "cdf935dfde3c5b65575bf4b8d01c11b1ced7d4eb5045a13644f36c1780c95226": {
     "active": true,
-    "hwid": "3181640055",
+    "hwid": null,
     "username": "Syathir 123",
     "plainKey": "af316d299b47179a9b15d531",
     "created": 1764229673194,
@@ -3011,7 +3011,7 @@
   },
   "8d5f43177c49f619fb3b4eabb6b8e4ef17660bc85b29b84b365a103694d21a36": {
     "active": true,
-    "hwid": "3986474011",
+    "hwid": null,
     "username": "Umger",
     "plainKey": "c1301836a92e36b099acc178",
     "created": 1764264526906,
@@ -3020,7 +3020,7 @@
   },
   "54e6618dbef67021c2a6f2f7c5ef841f81587918d0289025aabe95d62fa27e08": {
     "active": true,
-    "hwid": "7157905424",
+    "hwid": null,
     "username": "El evos ",
     "plainKey": "cfa272d3133da75af80620ca",
     "created": 1764316743200,
@@ -3029,7 +3029,7 @@
   },
   "73891c661299439438fbd319b39ac9f25eec60e55018fc21e04d64ada6c8014a": {
     "active": true,
-    "hwid": "7807959169",
+    "hwid": null,
     "username": "Zeyy",
     "plainKey": "88467a263c3d460152f2a28b",
     "created": 1764425279324,
@@ -3038,7 +3038,7 @@
   },
   "cf8ea9eaa66b68f57e3f829a5e4a4ae0abe603e28097492c87d82b7d4875aa66": {
     "active": true,
-    "hwid": "7807959169",
+    "hwid": null,
     "username": "Zeyy",
     "plainKey": "bd306066de7be3e28f2d2354",
     "created": 1764425280323,
@@ -3056,7 +3056,7 @@
   },
   "774c08288b315869623c274a69a2cf0bf54e9d687c2e2279b12fd924a3464f26": {
     "active": true,
-    "hwid": "8917292413",
+    "hwid": null,
     "username": "Zeyy",
     "plainKey": "1bb05628cb99236b24869200",
     "created": 1764425282316,
@@ -3119,7 +3119,7 @@
   },
   "6d8f8e0f65358a36d3be02bf0547111fb70e86e2bd736efb89d92e3ce3237b01": {
     "active": true,
-    "hwid": "8745096605",
+    "hwid": null,
     "username": "KaedaharaZan",
     "plainKey": "2c0e473bc89f26bacefa223a",
     "created": 1764473973456,
@@ -3128,7 +3128,7 @@
   },
   "b28bd571fda503e505d66b5cebbb5e743c02a59ba04a3f2ade61c569bace2028": {
     "active": true,
-    "hwid": "9778988396",
+    "hwid": null,
     "username": "KaedaharaZan",
     "plainKey": "70f0130ae4f0ee58d95b99ea",
     "created": 1764473974302,
@@ -3137,7 +3137,7 @@
   },
   "e57e7407b670d3370bd7c82830c2e63287cf45bfbc50d89f1c8603ab99687f72": {
     "active": true,
-    "hwid": "10017043376",
+    "hwid": null,
     "username": "KaedaharaZan",
     "plainKey": "050f134f80be1d34f06dc32e",
     "created": 1764473975167,
@@ -3164,7 +3164,7 @@
   },
   "390dedf57321941a8211ce8edc40074e523aadfab3ee4f981a855d0a2a2e0434": {
     "active": true,
-    "hwid": "9934083983",
+    "hwid": null,
     "username": "Finn1",
     "plainKey": "07c2fb37b826bf809ac12bd2",
     "created": 1764474167968,
@@ -3173,7 +3173,7 @@
   },
   "7510c5b39832314c6147d9fecba943c682144529728845e223f04db66c60f0e5": {
     "active": true,
-    "hwid": "8463006874",
+    "hwid": null,
     "username": "Finn1",
     "plainKey": "6ecc93938a9a09dbb8ec6613",
     "created": 1764474170665,
@@ -3182,7 +3182,7 @@
   },
   "778f4c4e05b9a2e7881c1d19a21620489db52f94df66e5933f8d2f5194725fca": {
     "active": true,
-    "hwid": "9302766007",
+    "hwid": null,
     "username": "Finn1",
     "plainKey": "fa476f6c96985099e5a22672",
     "created": 1764474171825,
@@ -3191,7 +3191,7 @@
   },
   "7e8832abfc9fd744ed1176476bd0f8207b5454377aafc79852b2cc8d0a974d97": {
     "active": true,
-    "hwid": "9852006033",
+    "hwid": null,
     "username": "Finn1",
     "plainKey": "3fbf65f18f774842d0adb027",
     "created": 1764474172811,
@@ -3200,7 +3200,7 @@
   },
   "f48f32de6a4dac6f4febfb17c80fb842822cdceaf0efebd3c4a7139c9d171da1": {
     "active": true,
-    "hwid": "8605089375",
+    "hwid": null,
     "username": "Finn1",
     "plainKey": "eea22bde49ae06e3ff43fe49",
     "created": 1764474173804,
@@ -3209,7 +3209,7 @@
   },
   "0c82cc810f59216295c98ec1c9c0c0f35556d0b7a53fe65937fd28937c49cd64": {
     "active": true,
-    "hwid": "8235894689",
+    "hwid": null,
     "username": "Finn1",
     "plainKey": "d6d340bddf67002f5111ffa9",
     "created": 1764474174836,
@@ -3218,7 +3218,7 @@
   },
   "e18a5b3c03eda36eb35b16e05633793a68edd0e301950db81d3219338a6207c6": {
     "active": true,
-    "hwid": "9991034681",
+    "hwid": null,
     "username": "Finn1",
     "plainKey": "ca91ae85674002908c3a5887",
     "created": 1764474175843,
@@ -3227,7 +3227,7 @@
   },
   "db62a077d911b74e25b2b8722fcd25294d839341c63bf39065d6b4540bc14713": {
     "active": true,
-    "hwid": "10037164965",
+    "hwid": null,
     "username": "Finn1",
     "plainKey": "58d9e2cd377ce7dda19a213e",
     "created": 1764474176832,
@@ -3236,7 +3236,7 @@
   },
   "813986050531ba20ad1494bd5a24cd69b04ab09d67c6c6b78a25860a811ddab3": {
     "active": true,
-    "hwid": "5043090806",
+    "hwid": null,
     "username": "Finn1",
     "plainKey": "b5b720cad055119dd32b1524",
     "created": 1764474177915,
@@ -3245,7 +3245,7 @@
   },
   "941ab063567c4417015e516d8ff671c51d43a53fc749cc46bd3ea8804c27a8a6": {
     "active": true,
-    "hwid": "9461053972",
+    "hwid": null,
     "username": "Finn1",
     "plainKey": "5c6e7d8ee5a2f9e370db7675",
     "created": 1764474178832,
@@ -3254,7 +3254,7 @@
   },
   "c29b75e4c7982786a8a95f2efe9a1215395db4ddec7a46253b26159a632f9c2e": {
     "active": true,
-    "hwid": "4331292434",
+    "hwid": null,
     "username": "KamilZ",
     "plainKey": "286bdf2f6f5404aca4753104",
     "created": 1764475141762,
@@ -3272,7 +3272,7 @@
   },
   "6c462f284265c24521840982e106e1e2318b438df6c12c12a862ca5b7642f7db": {
     "active": true,
-    "hwid": "8256187062",
+    "hwid": null,
     "username": "_45",
     "plainKey": "51a80c393252294430fb9949",
     "created": 1764478675440,
@@ -3308,7 +3308,7 @@
   },
   "b584b3063497f0aad9e2c64c752953022541f49ac7d19b18a19824d6a6b2593c": {
     "active": true,
-    "hwid": "9960138144",
+    "hwid": null,
     "username": "Alfarabi",
     "plainKey": "39887f2a6d6f7445829a6a5b",
     "created": 1764501823366,
@@ -3317,7 +3317,7 @@
   },
   "9c2ed4fb94cebff686209bc9ee613832eb66a785798e885cf4835dd7dc06f551": {
     "active": true,
-    "hwid": "9539505784",
+    "hwid": null,
     "username": "Ado",
     "plainKey": "eef64d36a1e85a0599602e64",
     "created": 1764577783746,
@@ -3380,7 +3380,7 @@
   },
   "813c1e7cbdd77a57de0a43b33994ff22251e51de61cc28e388b57c11845514b4": {
     "active": true,
-    "hwid": "9539505784",
+    "hwid": null,
     "username": "Ado",
     "plainKey": "8d574d6f3035f119db243e56",
     "created": 1764577792718,
@@ -3398,7 +3398,7 @@
   },
   "2869c01f52097670ecb6fc1a9fa13b8a2dbf217502003ebd2fbfb1d7ad9a7d4f": {
     "active": true,
-    "hwid": "9539505784",
+    "hwid": null,
     "username": "Ado",
     "plainKey": "39815612c86b2f66ee633b5d",
     "created": 1764577794252,
@@ -3407,7 +3407,7 @@
   },
   "5dc4d661d2f445bc32ad3425f13e5a73f01eb323d3483af94012331daa3a269d": {
     "active": true,
-    "hwid": "5171401822",
+    "hwid": null,
     "username": "Alif",
     "plainKey": "0dfea51540f335571b948179",
     "created": 1764595953948,
@@ -3416,7 +3416,7 @@
   },
   "f2462a728f74c9f1b7730c5e19f1ccc3e5a73e0def25aa343a761bd28324e908": {
     "active": true,
-    "hwid": "9547833200",
+    "hwid": null,
     "username": "Arya fitrah",
     "plainKey": "aeb0cf0ea1cd29e0bd3ea9fe",
     "created": 1764606602969,
@@ -3425,7 +3425,7 @@
   },
   "c8b97ae9ea7df318ae48c8da68714cdc160a5f52721d6cf622dffd63d072010f": {
     "active": true,
-    "hwid": "9703828562",
+    "hwid": null,
     "username": "Oemjirey",
     "plainKey": "4d2c926ea133b0b1794177d6",
     "created": 1764606673029,
@@ -3434,7 +3434,7 @@
   },
   "8adf08f9d76a798b43acde521ebc24fcfb4abe3384e66f037d7c42751f9dea69": {
     "active": true,
-    "hwid": "9703828562",
+    "hwid": null,
     "username": "Oemjirey",
     "plainKey": "1fa9b849a41760b00285d792",
     "created": 1764606673828,
@@ -3443,7 +3443,7 @@
   },
   "a9c9208b0d3a129d9bc2fdadbee786143cf24dca8dda3a51fd0911139cf71415": {
     "active": true,
-    "hwid": "9974718695",
+    "hwid": null,
     "username": "Oemjirey",
     "plainKey": "cfc0a57b85c4fdc9abaec039",
     "created": 1764606674787,
@@ -3452,7 +3452,7 @@
   },
   "a36615d2f21cd4cead7d9474f64dbfce951e9caa0ee716425df6fb2856e23ef9": {
     "active": true,
-    "hwid": "10010276884",
+    "hwid": null,
     "username": "Oemjirey",
     "plainKey": "196de81e8ff709de3e060155",
     "created": 1764606675552,
@@ -3461,7 +3461,7 @@
   },
   "47e9897e259b935733a9b04e7d70ec1a1e731e266845091ff147bd933867ed38": {
     "active": true,
-    "hwid": "9974718695",
+    "hwid": null,
     "username": "Oemjirey",
     "plainKey": "eb948aa8e9431a0125d9f784",
     "created": 1764606676265,
@@ -3470,7 +3470,7 @@
   },
   "982a65c83a643df7c07f73a30896999aa7df6e6944817f7ab32ff667bc5950c1": {
     "active": true,
-    "hwid": "9828512395",
+    "hwid": null,
     "username": "Romirizky",
     "plainKey": "6fab9250a7be1ab5a813d45d",
     "created": 1764606732419,
@@ -3479,7 +3479,7 @@
   },
   "6cf3593e8e5ee93ae53e3c5734c01255153d0faa6326dc5c6158360343c7c6e9": {
     "active": true,
-    "hwid": "9708318398",
+    "hwid": null,
     "username": "Romirizky",
     "plainKey": "fcf76c328fba6aef15c7d97e",
     "created": 1764606733194,
@@ -3515,7 +3515,7 @@
   },
   "96276adee109c24076871ae88e9f1177cfd2a89e678188e1eaef4a9f84472ab0": {
     "active": true,
-    "hwid": "9015160451",
+    "hwid": null,
     "username": "Ikan lele",
     "plainKey": "7a27234b05ae438fbd3b6811",
     "created": 1764606794279,
@@ -3524,7 +3524,7 @@
   },
   "13838f1139fa6283be8bbc0f1d5b020b7145932f049ef03b92ca17b11dce762b": {
     "active": true,
-    "hwid": "9495647994",
+    "hwid": null,
     "username": "Rico herbert",
     "plainKey": "d67d3c5560433f6b0ff36c84",
     "created": 1764614363709,
@@ -3533,7 +3533,7 @@
   },
   "29116397238931fb97a448364e6d385c11de9497257e2f6d122aa4f3afe0d37c": {
     "active": true,
-    "hwid": "8578801673",
+    "hwid": null,
     "username": "Cwikoo",
     "plainKey": "5b9d78799ca28ffcf1489d98",
     "created": 1764652358784,
@@ -3542,7 +3542,7 @@
   },
   "a6e72ecf9b87945749880b7f5322d8188bb27a4ab2db83893f2270b48f9f140a": {
     "active": true,
-    "hwid": "C7F1BBB8-135D-43C8-A944-CCA9AB11118D",
+    "hwid": null,
     "username": "princesskitty",
     "plainKey": "2a11298c1cebec1aaa3baac1",
     "created": 1764663980366,
@@ -3551,7 +3551,7 @@
   },
   "5fe4a9489554a2efef28b1e27e8e9e8370aa7e73ae0891d29f440df3e9c71cc8": {
     "active": true,
-    "hwid": "9215788890",
+    "hwid": null,
     "username": "dhimzx",
     "plainKey": "d8c28625aa6e2eb31cb6fb1b",
     "created": 1764725319046,
@@ -3560,7 +3560,7 @@
   },
   "8d1945dd64ff3b555c149968bb7a9c1abb60f2bdab23fb829e839317237ec169": {
     "active": true,
-    "hwid": "10078668792",
+    "hwid": null,
     "username": "Clay",
     "plainKey": "42665d43b5186e2fb0180f89",
     "created": 1764735905758,
@@ -3569,7 +3569,7 @@
   },
   "456ab569bf841ca8464bacb2d9b67397a3bcb43c86d8dc0c022b3a7ca7253bb8": {
     "active": true,
-    "hwid": "6064430823",
+    "hwid": null,
     "username": "Nabill",
     "plainKey": "a0f2c0a7717f25aa9d5c6218",
     "created": 1764801794583,
@@ -3578,7 +3578,7 @@
   },
   "c22ac2cc4fbb24f9d6c166895ef247f44572abc510c9b2fe11047a8c3bd50113": {
     "active": true,
-    "hwid": "7684502289",
+    "hwid": null,
     "username": "scripter",
     "plainKey": "558ebdac803d1ebe687ee66d",
     "created": 1764832443812,
@@ -3587,7 +3587,7 @@
   },
   "83057ffd4929fa908c8ae9369fe6b3bef63ce4a333b41f1fd0f5ba29841f6d03": {
     "active": true,
-    "hwid": "881836100",
+    "hwid": null,
     "username": "Nexalwesnt",
     "plainKey": "eb9fdb3585339d635bebcee4",
     "created": 1764833170410,
@@ -3596,7 +3596,7 @@
   },
   "f47363c3d6e020411d739735ac109b32926c30896af3c7b85576df844a725201": {
     "active": true,
-    "hwid": "9323310432",
+    "hwid": null,
     "username": "Nexalwesnt",
     "plainKey": "15d846ad586fb295e803f3d5",
     "created": 1764833171431,
@@ -3605,7 +3605,7 @@
   },
   "9be7100f3dc36bd6b4bcb8b9ef478207562a916c9bc339c03750de5df8984cee": {
     "active": true,
-    "hwid": "9055221459",
+    "hwid": null,
     "username": "Nexalwesnt",
     "plainKey": "3a9994edc586cac92d263abc",
     "created": 1764833172426,
@@ -3614,7 +3614,7 @@
   },
   "f9ba41464038f82935ec1e624d1dbbdcf5a41c552fc402f41e75c6e9fc2c54dd": {
     "active": true,
-    "hwid": "9919369744",
+    "hwid": null,
     "username": "Cahyo",
     "plainKey": "4ffe0f817aaee4927d92fc6e",
     "created": 1764841517057,
@@ -3623,7 +3623,7 @@
   },
   "1a0f4eccd7e61c6aa0ba9d6518ca23db8de129f4e6b1d74e5400619d7b7bd2b4": {
     "active": true,
-    "hwid": "8793976439",
+    "hwid": null,
     "username": "Cahyo",
     "plainKey": "b5213ce080a5dc865ba01e4e",
     "created": 1764852913704,
@@ -3632,7 +3632,7 @@
   },
   "50b9a5a3882b9c7020c791a4567ce2148eeef56c30feb030aba44ee77e5a84ba": {
     "active": true,
-    "hwid": "8712912202",
+    "hwid": null,
     "username": "Cahyo",
     "plainKey": "5c6a75c75697ad82d041878c",
     "created": 1764852914654,
@@ -3641,7 +3641,7 @@
   },
   "f97ba302d59d5a6c9e86c587f1bdb6670a4a15cda6da58a2284b0171593cc993": {
     "active": true,
-    "hwid": "9718867294",
+    "hwid": null,
     "username": "Apostel",
     "plainKey": "8273cbacf8b02c103e4cff5e",
     "created": 1764896864227,
@@ -3650,7 +3650,7 @@
   },
   "37bb38cdedbe2cbbf9e0f932343fd5e1dafe8bd848ef809e0e149963c83af6a6": {
     "active": true,
-    "hwid": "9883927262",
+    "hwid": null,
     "username": "Finn2",
     "plainKey": "b12f0e85e7695c6677122caa",
     "created": 1764932983252,
@@ -3659,7 +3659,7 @@
   },
   "7f72ad3835bbb1946cd057999da9c2b9b879bb709aafdbedd7aae186312d3197": {
     "active": true,
-    "hwid": "9621022287",
+    "hwid": null,
     "username": "Finn2",
     "plainKey": "a271651bb73ff2115bb55bbb",
     "created": 1764932984416,
@@ -3668,7 +3668,7 @@
   },
   "4680ed859acd849a35069b06121dc6237ca50ecdf3c00b62b987a464ac5eadfe": {
     "active": true,
-    "hwid": "3170311551",
+    "hwid": null,
     "username": "Finn2",
     "plainKey": "d834953354d9035e6c3c3c7d",
     "created": 1764932985676,
@@ -3677,7 +3677,7 @@
   },
   "b38a841bc6bdccc51edd13e1be7d6173193d67f9fbc2f6188bfa43399675acfe": {
     "active": true,
-    "hwid": "8985061268",
+    "hwid": null,
     "username": "Finn2",
     "plainKey": "090d7c0a1398f34df3fb0ba0",
     "created": 1764932986927,
@@ -3695,7 +3695,7 @@
   },
   "cb5ce18a2165cf7105685f5aa2fb550876b2dc5c9dcd189defc7f56d44c60ad9": {
     "active": true,
-    "hwid": "9895785704",
+    "hwid": null,
     "username": "Finn2",
     "plainKey": "bac618a29e8f0108a8fca2aa",
     "created": 1764932989444,
@@ -3704,7 +3704,7 @@
   },
   "6122340eb02de2fb0b83206629f14a6b80509ecd5905ca1c23738ed5dec78492": {
     "active": true,
-    "hwid": "8745400995",
+    "hwid": null,
     "username": "Finn2",
     "plainKey": "473e6717b600047126a2e96c",
     "created": 1764932991005,
@@ -3713,7 +3713,7 @@
   },
   "a6edf96b2901f4f0e2babd99dc41ed0d8222c8ee91d86ca8c75cf8a266386699": {
     "active": true,
-    "hwid": "3624253519",
+    "hwid": null,
     "username": "Finn2",
     "plainKey": "35de80a1fb24e74653f61b3e",
     "created": 1764932992357,
@@ -3722,7 +3722,7 @@
   },
   "6ab13b5fc675b04ca63a99b11bb60d24ed777039bc9d25a418025971bf0a3e93": {
     "active": true,
-    "hwid": "6193068967",
+    "hwid": null,
     "username": "Finn2",
     "plainKey": "b72e3e19df27a7b39ba1e2b8",
     "created": 1764932993220,
@@ -3731,7 +3731,7 @@
   },
   "8890ec7a7202af33a1b5aaf9a1c825cb045453e5e53a9608facb003d484c4237": {
     "active": true,
-    "hwid": "8337220606",
+    "hwid": null,
     "username": "Finn2",
     "plainKey": "d6fa365491c66fc1d3da8932",
     "created": 1764932994311,
@@ -3740,7 +3740,7 @@
   },
   "7cddd781b6599a0c76af2e1283dab98ec4f5a1f19a529866a3acae247c25366f": {
     "active": true,
-    "hwid": "7011930430",
+    "hwid": null,
     "username": "Finn2",
     "plainKey": "08b70dfee96af3e99a278ae6",
     "created": 1764932995344,
@@ -3749,7 +3749,7 @@
   },
   "5e6b411ba4032613c0a16e7cf420a014cde498c89a50f0c70e19f70310fab05b": {
     "active": true,
-    "hwid": "4331292434",
+    "hwid": null,
     "username": "giveaway1",
     "plainKey": "cc65e9f560632ad3398b84cc",
     "created": 1765095682303,
@@ -3767,7 +3767,7 @@
   },
   "36814fd416de3b18fa6cb79159f604b40a2636e2a5185036868b5064437b18f4": {
     "active": true,
-    "hwid": "8509750480",
+    "hwid": null,
     "username": "giveaway2",
     "plainKey": "5627e73378394c45e29175c2",
     "created": 1765095693723,
@@ -3803,7 +3803,7 @@
   },
   "20dbabefb12daeedb1fdf470acc18b834f1658d7e3eae6c379428ab33d262127": {
     "active": true,
-    "hwid": "edd3f418-5d79-47b7-b069-b2aafaf1f622",
+    "hwid": null,
     "username": "giveaway4",
     "plainKey": "0832acf9153028844030809e",
     "created": 1765095704728,
@@ -3812,7 +3812,7 @@
   },
   "f84ee844ac87e370c5d0648dbcf25befdc8d600f16b9c137e0c1dc742efdf55f": {
     "active": true,
-    "hwid": "7f596e39-45bf-40b3-8abb-d9c0b2db713a",
+    "hwid": null,
     "username": "giveaway4",
     "plainKey": "33cdf34d189566360cbf9f5e",
     "created": 1765095705939,
@@ -3893,7 +3893,7 @@
   },
   "87751a236079d5c3f82e1009342516e1a034e904caff0fde4a51966393beec41": {
     "active": true,
-    "hwid": "140dec50-09f1-4af2-9d1e-8c06a08547dd",
+    "hwid": null,
     "username": "fadlan",
     "plainKey": "fe1362dfc596e5762f782d27",
     "created": 1765097115519,
@@ -3902,7 +3902,7 @@
   },
   "cda5a196ae8c7f337b1a1e2bfb708c84f427769aa438eba02dc1b91dbcf9ac4a": {
     "active": true,
-    "hwid": "614fc087-1af2-4820-a01f-0249b57d7850",
+    "hwid": null,
     "username": "fadlan",
     "plainKey": "0c021283ebbc479de9d86309",
     "created": 1765097116729,
@@ -3911,7 +3911,7 @@
   },
   "ba595a5dbc9b6234d7da6f765085af34412edaad6d053842dac7f4845dafe686": {
     "active": true,
-    "hwid": "2e0d4344-0480-4dd5-ae13-a52e098a8fb1",
+    "hwid": null,
     "username": "fadlan",
     "plainKey": "adcb679a8e3274be0785e0f8",
     "created": 1765097117591,
@@ -3920,7 +3920,7 @@
   },
   "41a2dbc2acff8f338fa132847f2ad1a5e9b651781ec5e5b2129f58a184beb6a7": {
     "active": true,
-    "hwid": "9743580938",
+    "hwid": null,
     "username": "ArExpek",
     "plainKey": "abd06ffebd6812e8d6de99f5",
     "created": 1765099501497,
@@ -3929,7 +3929,7 @@
   },
   "9cd27c48d1af16ae0a76a256ccfada8e91d663065dbb8a07c82c4a9d3a468e25": {
     "active": true,
-    "hwid": "9405600967",
+    "hwid": null,
     "username": "ArExpek",
     "plainKey": "8dd9f0a0b5fc43c55e3408c1",
     "created": 1765099502392,
@@ -3947,7 +3947,7 @@
   },
   "a40a0bbd65a46d1ac6e2741773b460939cfac1f2b7067274a89316e2f8b21028": {
     "active": true,
-    "hwid": "41d32734-88e9-4c0c-8b2d-9fbd4d2de1f0",
+    "hwid": null,
     "username": "Farhan",
     "plainKey": "96615c3dc93b49fe0c005d71",
     "created": 1765181474948,
@@ -3956,7 +3956,7 @@
   },
   "f00e4a37cf4784623d27ecdabd90996ee2217a5eb91c555e10ce5623a6794481": {
     "active": true,
-    "hwid": "50c94cbe-0a8b-462c-9d95-b67b4a8e9c89",
+    "hwid": null,
     "username": "Farhan",
     "plainKey": "03293f7cd5c97f7f2c1d0ba2",
     "created": 1765181475927,
@@ -3965,7 +3965,7 @@
   },
   "2cd71072e240f5cb7591ee2e29c372ca1c622b793c1ac24adc2e2d394a4a3a14": {
     "active": true,
-    "hwid": "6eaf5886-497c-4d99-aa68-ce7986d33579",
+    "hwid": null,
     "username": "Farhan",
     "plainKey": "c9eeeb110e6eb9966817abc0",
     "created": 1765181476998,
@@ -3974,7 +3974,7 @@
   },
   "67169899410b6001c04c6f835f5955083b9f9007ecc13582963dffbaf64b1d52": {
     "active": true,
-    "hwid": "631121312",
+    "hwid": null,
     "username": "Ryn",
     "plainKey": "47692ececd6c39f4a4f50198",
     "created": 1765206590535,
@@ -3992,7 +3992,7 @@
   },
   "d04398c3458fa619b821a419bea24e7e9b04bfd69e73abca8efc75f84f4f7c7c": {
     "active": true,
-    "hwid": "9046859367",
+    "hwid": null,
     "username": "Nexalwesnt",
     "plainKey": "325eec4c70d1f9f67fce2af0",
     "created": 1765249614383,
@@ -4001,7 +4001,7 @@
   },
   "761c83a82d3375fc0d95f32e9bcde1570068388b6d79ec575bf3af4970020675": {
     "active": true,
-    "hwid": "C7F1BBB8-135D-43C8-A944-CCA9AB11118D",
+    "hwid": null,
     "username": "louissxe",
     "plainKey": "e2fa29555fd7c8a024e84420",
     "created": 1765257578470,
@@ -4010,7 +4010,7 @@
   },
   "be63080bd1bd889522a3a4a3820779a3a47d43e881b9a8ae8301dc92c862f5e8": {
     "active": true,
-    "hwid": "2cecb73a-66f6-4260-8aa8-993ff844b0e0",
+    "hwid": null,
     "username": "Farr5TL",
     "plainKey": "973c1e4770cdeaed72dee288",
     "created": 1765278312373,
@@ -4019,7 +4019,7 @@
   },
   "445247101626030f22388a79325eb5899a3d28bd0bf733b8c8a049e317558cc9": {
     "active": true,
-    "hwid": "4e581778-ec8d-4fbd-85f7-9db886ee1a50",
+    "hwid": null,
     "username": "Farr5TL",
     "plainKey": "7a9ed028e0b0328baf4f0022",
     "created": 1765278313305,
@@ -4028,7 +4028,7 @@
   },
   "14fc661272fc07350c41cd63f173ba9bea2f0c8d112cc20590d50816e3aa3688": {
     "active": true,
-    "hwid": "8730267372",
+    "hwid": null,
     "username": "D?",
     "plainKey": "083dc73f9723e739f939228b",
     "created": 1765290613680,
@@ -4046,7 +4046,7 @@
   },
   "2f2bb183c86e73dcb8235bb4ebe516b269090c04c2bc97b270a80f4e537e0583": {
     "active": true,
-    "hwid": "9545070297",
+    "hwid": null,
     "username": "rakha",
     "plainKey": "44cda6d7e4968e7d242a4b39",
     "created": 1765330429258,
@@ -4055,7 +4055,7 @@
   },
   "2ac24830c971918811a208a5867deff5c899cf0570460b849420afa9400b7f23": {
     "active": true,
-    "hwid": "9739347638",
+    "hwid": null,
     "username": "Guemfen",
     "plainKey": "d966b63ff1c82bf20e66d786",
     "created": 1765333158278,
@@ -4064,7 +4064,7 @@
   },
   "3c1d1f7d2017c51314ac5ceda5d7ce55e4da24cc2687ef89bebac33ed7064064": {
     "active": true,
-    "hwid": "9303979354",
+    "hwid": null,
     "username": "Ini_yogud",
     "plainKey": "e24ddcd725a7280e0d367081",
     "created": 1765350891242,
@@ -4073,7 +4073,7 @@
   },
   "016c514ff66fd951576faab2b57bed4aeabc6741cddf3efc5132d760758b7a3b": {
     "active": true,
-    "hwid": "8721681734",
+    "hwid": null,
     "username": "Langit ",
     "plainKey": "23c08afc9cd9985567897e72",
     "created": 1765353235676,
@@ -4082,7 +4082,7 @@
   },
   "e73aacc06379eb4b2c1a81b1507962311fd232640599067f326e791819504ae4": {
     "active": true,
-    "hwid": "73b2b1c6-9a99-4c13-a0f8-5f84b822473a",
+    "hwid": null,
     "username": "CLAY",
     "plainKey": "5e103a06d7809a57eb66af3c",
     "created": 1765388775125,
@@ -4091,7 +4091,7 @@
   },
   "ece6c55dc63f9a944217af71f0cebc44d34408b1028af3162aae249ff6f5f4fc": {
     "active": true,
-    "hwid": "9b082fc9-38a6-45a7-af6b-8394c1a9e4ac",
+    "hwid": null,
     "username": "Ray nasgor",
     "plainKey": "3981b9d5d30aed17005325a9",
     "created": 1765449707424,
@@ -4100,7 +4100,7 @@
   },
   "82446578e9885627af77499518a10ca0cab8b99f46cd51ba1d008076dfaa1df4": {
     "active": true,
-    "hwid": "8830013783",
+    "hwid": null,
     "username": "Qill",
     "plainKey": "f125e7b426d742804e2c5a78",
     "created": 1765450133355,
@@ -4109,7 +4109,7 @@
   },
   "4c821b29a1757ef8d60cdbc0b63a7f61f91b40af8f9ee4c3af44975bc1146698": {
     "active": true,
-    "hwid": "171e3231-4102-4fc6-83e4-4724151a7821",
+    "hwid": null,
     "username": "louissxe",
     "plainKey": "82c6f03dd32615ebcc6f20b5",
     "created": 1765453853158,
@@ -4118,7 +4118,7 @@
   },
   "0be941275e3a1d4708f00d41c708a386c3a47be70e47be6794f72951b42fd1db": {
     "active": true,
-    "hwid": "10062533525",
+    "hwid": null,
     "username": "EMUL",
     "plainKey": "a6335746bd9992dff1c5051b",
     "created": 1765456093770,
@@ -4127,7 +4127,7 @@
   },
   "2d517c3301525f13e32e5e252e8273e3d5defc119e60ea6fab46155f85308b7b": {
     "active": true,
-    "hwid": "10062533525",
+    "hwid": null,
     "username": "EMUL",
     "plainKey": "de1e42c36869b1fdb607000a",
     "created": 1765456094717,
@@ -4145,7 +4145,7 @@
   },
   "e70179fa6c8cef5feaf0e2dc6a8a0bf8b78104679ee6847063144060a29d8cf2": {
     "active": true,
-    "hwid": "8cdf43a4-d980-45a3-8fdf-70c58f022169",
+    "hwid": null,
     "username": "Hanz",
     "plainKey": "2e41a57e09f8c4d499c682b8",
     "created": 1765459040652,
@@ -4154,7 +4154,7 @@
   },
   "cd574cb41313ff3b2dd8d1ff26129457764b3043135a25634947c429357453ab": {
     "active": true,
-    "hwid": "3500754988",
+    "hwid": null,
     "username": "Nell",
     "plainKey": "ace5f553e19dde975a03e711",
     "created": 1765510775903,
@@ -4163,7 +4163,7 @@
   },
   "d2cf95a0f1333a9ce07ab911599f879e117922e12b223b28902c70583b3c3c4f": {
     "active": true,
-    "hwid": "3500754988",
+    "hwid": null,
     "username": "Nell",
     "plainKey": "416818b5cff27ea71160f689",
     "created": 1765510776936,
@@ -4172,7 +4172,7 @@
   },
   "4a7ff924ff9f8a35e8351fdfffbcf40cb6f7be08797e7a4ceeedff15f7699d35": {
     "active": true,
-    "hwid": "3500754988",
+    "hwid": null,
     "username": "Nell",
     "plainKey": "9a6c458528aaa3e96deef0cd",
     "created": 1765510781287,
@@ -4181,7 +4181,7 @@
   },
   "5ec7968197998620076c3b1c84a26b3b5f6252f27145d16030c2ebfc2445ad0c": {
     "active": true,
-    "hwid": "7613290065",
+    "hwid": null,
     "username": "Superman ",
     "plainKey": "e90e9a6404812c3e1f352af9",
     "created": 1765764174118,
@@ -4199,7 +4199,7 @@
   },
   "2c96df3ad59a5ade1460317d50a7ae0e4e22d2f9e0fd3767c4ddd54106bd4089": {
     "active": true,
-    "hwid": "8414007053",
+    "hwid": null,
     "username": "Finn3",
     "plainKey": "4d9a63350c72a771197329fa",
     "created": 1765801346593,
@@ -4208,7 +4208,7 @@
   },
   "7043ae3f39f6c9d29ca4d89346992ad07b3cc823d068e2f1270843987069acfa": {
     "active": true,
-    "hwid": "9602442272",
+    "hwid": null,
     "username": "Finn3",
     "plainKey": "7d115eeb070802f6c8d62261",
     "created": 1765801347552,
@@ -4226,7 +4226,7 @@
   },
   "58572af0c2b70246b11a2a527327fc4d09aeb0347da81e0c053867d156be2618": {
     "active": true,
-    "hwid": "9662361508",
+    "hwid": null,
     "username": "Finn3",
     "plainKey": "a827edc5921505c8d99821bb",
     "created": 1765801349345,
@@ -4235,7 +4235,7 @@
   },
   "9558a3227d5bbd3c0eafdef49345ee4d56b5f44d9ad8e4c14b07138e560c7ab3": {
     "active": true,
-    "hwid": "8686873699",
+    "hwid": null,
     "username": "Finn3",
     "plainKey": "e971689cb20eda2c7dac6dd9",
     "created": 1765801350246,
@@ -4244,7 +4244,7 @@
   },
   "87c0fc53bce9b46025d9528d81ee471d61121f8e357ea0ea20e69ef7bf2eee21": {
     "active": true,
-    "hwid": "10117724896",
+    "hwid": null,
     "username": "Finn3",
     "plainKey": "f07b8598fdd1559b5cbd1c20",
     "created": 1765801351109,
@@ -4253,7 +4253,7 @@
   },
   "a87e8ce76588f774e6f74dffa34d4399e915df3e80c32236244d327c26454db1": {
     "active": true,
-    "hwid": "7744909855",
+    "hwid": null,
     "username": "Finn3",
     "plainKey": "01ede5031ea24115640d9cef",
     "created": 1765801352028,
@@ -4262,7 +4262,7 @@
   },
   "77a1d152dbef32b061562bd3bcd766aa919b3c5526861a9cd3f1dd7bacec5d5e": {
     "active": true,
-    "hwid": "5811399357",
+    "hwid": null,
     "username": "Finn3",
     "plainKey": "cabfa47c3b66124c58738eff",
     "created": 1765801352924,
@@ -4271,7 +4271,7 @@
   },
   "2ea079bf2d8f595e6402f27d05aa977223ca8f9ea7f782d995a68e3dab06495e": {
     "active": true,
-    "hwid": "9903886982",
+    "hwid": null,
     "username": "Finn3",
     "plainKey": "2d82808c752859262c1363fd",
     "created": 1765801353767,
@@ -4280,7 +4280,7 @@
   },
   "6613fc88cb5347abaa5b538761bbf1ba2ac137425dd0f0a3fbfbede85b7141bb": {
     "active": true,
-    "hwid": "9410673768",
+    "hwid": null,
     "username": "Finn3",
     "plainKey": "224f327e5214d36fdf396047",
     "created": 1765801354660,
@@ -4289,7 +4289,7 @@
   },
   "d10ef1914181b76c04d755591002406c325776c1a77bd0954cc69f35f099c585": {
     "active": false,
-    "hwid": "5311189794",
+    "hwid": null,
     "username": "vins2",
     "plainKey": "7c32721f5518df6680ce63a4",
     "created": 1765801882457,
@@ -4298,7 +4298,7 @@
   },
   "73c5b476565068c3daa780b7a951d0e21cb1448fe6df7b1fa9fdd330fef5f1b3": {
     "active": true,
-    "hwid": "8980978658",
+    "hwid": null,
     "username": "Codet",
     "plainKey": "fa28920d82975270e8e3cf10",
     "created": 1765803255975,
@@ -4307,7 +4307,7 @@
   },
   "bf907ccdb127eed71b54901ff7e886e48645cec86e71efe190337294afbfeaf2": {
     "active": true,
-    "hwid": "9763884217",
+    "hwid": null,
     "username": "Njzax",
     "plainKey": "22617260b3c3f555e3852c80",
     "created": 1765811596752,
@@ -4316,7 +4316,7 @@
   },
   "8622d599d049ec7a55a483f74b38afb98b55be28d0c7c728686e4e1cae3bdba7": {
     "active": true,
-    "hwid": "9819346522",
+    "hwid": null,
     "username": "Njzax",
     "plainKey": "64d6c0ad2618866e4f14ae4e",
     "created": 1765811597621,
@@ -4325,7 +4325,7 @@
   },
   "9ca6c4d15ceb9952353233a6d07efdc5d778ab95a0af4d783418db740877093c": {
     "active": true,
-    "hwid": "9819377201",
+    "hwid": null,
     "username": "Njzax",
     "plainKey": "643cf712f95c4b3dc88edea9",
     "created": 1765811598552,
@@ -4334,7 +4334,7 @@
   },
   "3588f17f8dc3a5fee4b5f326c05a27dd98c5d40914e2a7794c1c0c23116bfb34": {
     "active": true,
-    "hwid": "7475309422",
+    "hwid": null,
     "username": "tiktok ",
     "plainKey": "82abbe74eca7374d6f86e9ab",
     "created": 1765870882796,
@@ -4343,7 +4343,7 @@
   },
   "3552c5b6db9c42146c1f6ec983279bb7e7be5d2bfa020ae90f97ca5a1073d8b8": {
     "active": true,
-    "hwid": "8697267641",
+    "hwid": null,
     "username": "Y",
     "plainKey": "a4df16fc68f7fc34b2bb2e20",
     "created": 1766028864910,
@@ -4379,7 +4379,7 @@
   },
   "5781f8b6a155d780e9733ebc04e2830b09f1c5af2751fe7c31b65778e562ac37": {
     "active": true,
-    "hwid": "8975339927",
+    "hwid": null,
     "username": "Nexal",
     "plainKey": "f43dd7029368721371da3509",
     "created": 1766050227720,
@@ -4388,7 +4388,7 @@
   },
   "235e01fd5b38f152b45947f34bd7c247d74032039d47a37a8353b8998bd092f3": {
     "active": true,
-    "hwid": "9445589289",
+    "hwid": null,
     "username": "Nexal",
     "plainKey": "28b8517247447e7a4010d020",
     "created": 1766050228641,
@@ -4397,7 +4397,7 @@
   },
   "d3b0f056ff8a291cf853aa5696329073ae4b78528b7b10c8abc22b4952c2857c": {
     "active": true,
-    "hwid": "9599466433",
+    "hwid": null,
     "username": "Nexal",
     "plainKey": "df2b9f4b51110e33aa63fd50",
     "created": 1766050229603,
@@ -4406,7 +4406,7 @@
   },
   "5d6a743a956bb7a0c8ae81f6ca0251a1703d30d39c61266e2ac048539b4cdaf3": {
     "active": true,
-    "hwid": "9957865321",
+    "hwid": null,
     "username": "Nexal",
     "plainKey": "f6372f9e4643bb69c5ff7a3f",
     "created": 1766050230499,
