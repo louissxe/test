@@ -35,7 +35,7 @@ local isMobileDevice = isMobile()
 -- KEY SYSTEM CONFIGURATION
 -- ========================================
 
-local urlBase = "lshub-production.up.railway.app"
+local urlBase = "https://louissxe-lshub.up.railway.app"
 
 -- 🧠 Function safe HTTP
 local function httpGetSafe(url)
