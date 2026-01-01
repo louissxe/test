@@ -958,7 +958,7 @@ app.get("/", (req, res) => {
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 LS Hub. All rights reserved. | Premium Script Services</p>
+                <p> Copyright &copy; 2026 LS Hub</p>
             </div>
         </div>
     </footer>
