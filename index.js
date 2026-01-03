@@ -742,7 +742,7 @@ app.get("/", (req, res) => {
                 <a href="/" class="logo">
                     <div class="logo-icon">LS</div>
                     <div class="logo-text">
-                        <h1>LS Hub BETA TEST</h1>
+                        <h1>LS Hub</h1>
                         <span>Premium Script Services</span>
                     </div>
                 </a>
